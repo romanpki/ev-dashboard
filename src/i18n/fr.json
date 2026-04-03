@@ -15,7 +15,7 @@
     "subtitle": "Indicateurs clés de l'électrification du transport en France",
     "kpi": {
       "totalVE": "Véhicules électriques immatriculés",
-      "totalVE_desc": "Cumul depuis 2020",
+      "totalVE_desc": "Cumul depuis 2015",
       "marketShare": "Part de marché VE",
       "marketShare_desc": "Véhicules particuliers neufs",
       "chargingPoints": "Points de recharge publics",
@@ -27,8 +27,8 @@
     "chargingByPower": "PDC par puissance"
   },
   "registrations": {
-    "title": "Immatriculations de véhicules électriques",
-    "subtitle": "Évolution des ventes de véhicules 100% électriques en France",
+    "title": "Immatriculations par énergie",
+    "subtitle": "Évolution des ventes par type d'énergie en France (2015–2024)",
     "filters": {
       "vehicleType": "Type de véhicule",
       "period": "Période",
@@ -38,11 +38,19 @@
       "pl": "Poids lourds"
     },
     "charts": {
-      "monthly": "Immatriculations mensuelles",
-      "monthly_desc": "Nombre de véhicules 100% électriques immatriculés par mois",
+      "monthly": "Immatriculations mensuelles par énergie",
+      "monthly_desc": "Cliquez sur une énergie dans la légende pour l'afficher / masquer",
       "marketShare": "Parts de marché annuelles",
-      "marketShare_desc": "Répartition électrique / hybride / thermique",
-      "byType": "Répartition par type"
+      "marketShare_desc": "Répartition de toutes les énergies par année",
+      "byType": "Répartition par énergie"
+    },
+    "energies": {
+      "electric": "Électrique (BEV)",
+      "hybrid_rechargeable": "Hybride rechargeable",
+      "hybrid": "Hybride non rechargeable",
+      "diesel": "Diesel",
+      "gasoline": "Essence",
+      "gas": "GNV / GNL"
     }
   },
   "charging": {

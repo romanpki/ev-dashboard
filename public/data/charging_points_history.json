@@ -2,20 +2,20 @@
   {
     "month": "2021-01",
     "public": 42000,
-    "private": 14699,
-    "total": 56699
+    "private": 14700,
+    "total": 56700
   },
   {
     "month": "2021-02",
     "public": 44000,
-    "private": 15399,
-    "total": 59399
+    "private": 15400,
+    "total": 59400
   },
   {
     "month": "2021-03",
     "public": 46500,
-    "private": 16274,
-    "total": 62774
+    "private": 16275,
+    "total": 62775
   },
   {
     "month": "2021-04",
@@ -104,26 +104,26 @@
   {
     "month": "2022-06",
     "public": 82000,
-    "private": 28699,
-    "total": 110699
+    "private": 28700,
+    "total": 110700
   },
   {
     "month": "2022-07",
     "public": 85000,
-    "private": 29749,
-    "total": 114749
+    "private": 29750,
+    "total": 114750
   },
   {
     "month": "2022-08",
     "public": 88000,
-    "private": 30799,
-    "total": 118799
+    "private": 30800,
+    "total": 118800
   },
   {
     "month": "2022-09",
     "public": 91500,
-    "private": 32024,
-    "total": 123524
+    "private": 32025,
+    "total": 123525
   },
   {
     "month": "2022-10",

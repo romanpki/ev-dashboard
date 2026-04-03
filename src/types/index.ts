@@ -1,18 +1,28 @@
-export interface MonthlyRegistration {
-  month: string // "2024-01"
-  vp: number
-  vul: number
-  pl: number
+export interface EnergyBreakdown {
+  electric: number            // BEV 100% électrique
+  hybrid_rechargeable: number // PHEV hybride rechargeable
+  hybrid: number              // HEV hybride non rechargeable
+  diesel: number
+  gasoline: number            // essence
+  gas: number                 // GNV / GNL
   total: number
 }
 
-export interface AnnualMarketShare {
+export type VehicleType = 'all' | 'vp' | 'vul' | 'pl'
+export type VehicleTypeStrict = 'vp' | 'vul' | 'pl'
+
+export interface MonthlyRegistration {
+  month: string // "2024-01"
+  vp: EnergyBreakdown
+  vul: EnergyBreakdown
+  pl: EnergyBreakdown
+}
+
+export interface AnnualRegistration {
   year: number
-  electric: number
-  hybrid: number
-  thermal: number
-  total: number
-  ev_share: number // percent
+  vp: EnergyBreakdown & { ev_share: number }
+  vul: EnergyBreakdown & { ev_share: number }
+  pl: EnergyBreakdown & { ev_share: number }
 }
 
 export interface ChargingPointHistory {
@@ -23,7 +33,7 @@ export interface ChargingPointHistory {
 }
 
 export interface ChargingByPower {
-  range: string // "≤22 kW"
+  range: string
   count: number
   percent: number
 }
@@ -53,15 +63,4 @@ export interface Metadata {
   sources: string[]
   period_registrations: { start: string; end: string }
   period_charging: { start: string; end: string }
-}
-
-export interface DashboardData {
-  registrations_monthly: MonthlyRegistration[]
-  registrations_annual: AnnualMarketShare[]
-  charging_history: ChargingPointHistory[]
-  charging_by_power: ChargingByPower[]
-  charging_by_operator: ChargingByOperator[]
-  geo_registrations: GeoRegistrations[]
-  geo_charging: GeoCharging[]
-  metadata: Metadata
 }

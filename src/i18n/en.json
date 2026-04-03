@@ -15,7 +15,7 @@
     "subtitle": "Key indicators of transport electrification in France",
     "kpi": {
       "totalVE": "Electric vehicles registered",
-      "totalVE_desc": "Cumulative since 2020",
+      "totalVE_desc": "Cumulative since 2015",
       "marketShare": "EV market share",
       "marketShare_desc": "New passenger cars",
       "chargingPoints": "Public charging points",
@@ -27,8 +27,8 @@
     "chargingByPower": "Charging points by power"
   },
   "registrations": {
-    "title": "Electric vehicle registrations",
-    "subtitle": "Evolution of 100% electric vehicle sales in France",
+    "title": "Registrations by energy type",
+    "subtitle": "Evolution of vehicle sales by energy type in France (2015–2024)",
     "filters": {
       "vehicleType": "Vehicle type",
       "period": "Period",
@@ -38,11 +38,19 @@
       "pl": "Heavy goods vehicles"
     },
     "charts": {
-      "monthly": "Monthly registrations",
-      "monthly_desc": "Number of 100% electric vehicles registered per month",
+      "monthly": "Monthly registrations by energy",
+      "monthly_desc": "Click an energy type in the legend to show / hide it",
       "marketShare": "Annual market shares",
-      "marketShare_desc": "Electric / hybrid / thermal breakdown",
-      "byType": "Breakdown by type"
+      "marketShare_desc": "All energy types breakdown by year",
+      "byType": "Breakdown by energy"
+    },
+    "energies": {
+      "electric": "Electric (BEV)",
+      "hybrid_rechargeable": "Plug-in hybrid",
+      "hybrid": "Non-plug-in hybrid",
+      "diesel": "Diesel",
+      "gasoline": "Gasoline",
+      "gas": "CNG / LNG"
     }
   },
   "charging": {

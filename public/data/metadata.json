@@ -1,12 +1,18 @@
 {
   "last_update": "2025-01-01",
   "sources": [
-    "SDES (Service des données et études statistiques)",
+    "SDES",
     "AVERE-France",
-    "IRVE (data.gouv.fr / transport.data.gouv.fr)",
-    "AAAdata (data.gouv.fr)",
+    "IRVE (data.gouv.fr)",
+    "AAAdata",
     "INSEE"
   ],
-  "period_registrations": { "start": "2020-01", "end": "2024-12" },
-  "period_charging": { "start": "2021-01", "end": "2024-12" }
+  "period_registrations": {
+    "start": "2015-01",
+    "end": "2024-12"
+  },
+  "period_charging": {
+    "start": "2021-01",
+    "end": "2024-12"
+  }
 }
