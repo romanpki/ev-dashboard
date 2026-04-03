@@ -1,50 +1,332 @@
 [
   {
+    "year": 2015,
+    "vp": {
+      "electric": 15335,
+      "hybrid_rechargeable": 3834,
+      "hybrid": 67096,
+      "diesel": 1016010,
+      "gasoline": 805139,
+      "gas": 9587,
+      "total": 1917001,
+      "ev_share": 0.8
+    },
+    "vul": {
+      "electric": 1921,
+      "hybrid_rechargeable": 0,
+      "hybrid": 1921,
+      "diesel": 338800,
+      "gasoline": 40439,
+      "gas": 1921,
+      "total": 385002,
+      "ev_share": 0.5
+    },
+    "pl": {
+      "electric": 43,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 40508,
+      "gasoline": 203,
+      "gas": 246,
+      "total": 41000,
+      "ev_share": 0.1
+    }
+  },
+  {
+    "year": 2016,
+    "vp": {
+      "electric": 20148,
+      "hybrid_rechargeable": 6045,
+      "hybrid": 90675,
+      "diesel": 1047798,
+      "gasoline": 840253,
+      "gas": 10079,
+      "total": 2014998,
+      "ev_share": 1.0
+    },
+    "vul": {
+      "electric": 2388,
+      "hybrid_rechargeable": 0,
+      "hybrid": 1990,
+      "diesel": 348251,
+      "gasoline": 43381,
+      "gas": 1990,
+      "total": 398000,
+      "ev_share": 0.6
+    },
+    "pl": {
+      "electric": 43,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 42443,
+      "gasoline": 217,
+      "gas": 300,
+      "total": 43003,
+      "ev_share": 0.1
+    }
+  },
+  {
+    "year": 2017,
+    "vp": {
+      "electric": 25332,
+      "hybrid_rechargeable": 10559,
+      "hybrid": 122438,
+      "diesel": 992172,
+      "gasoline": 947832,
+      "gas": 12665,
+      "total": 2110998,
+      "ev_share": 1.2
+    },
+    "vul": {
+      "electric": 3346,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3346,
+      "diesel": 363659,
+      "gasoline": 45559,
+      "gas": 2090,
+      "total": 418000,
+      "ev_share": 0.8
+    },
+    "pl": {
+      "electric": 92,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 45311,
+      "gasoline": 230,
+      "gas": 367,
+      "total": 46000,
+      "ev_share": 0.2
+    }
+  },
+  {
+    "year": 2018,
+    "vp": {
+      "electric": 30421,
+      "hybrid_rechargeable": 21728,
+      "hybrid": 152110,
+      "diesel": 956120,
+      "gasoline": 999585,
+      "gas": 13038,
+      "total": 2173002,
+      "ev_share": 1.4
+    },
+    "vul": {
+      "electric": 4320,
+      "hybrid_rechargeable": 433,
+      "hybrid": 4320,
+      "diesel": 371520,
+      "gasoline": 49247,
+      "gas": 2160,
+      "total": 432000,
+      "ev_share": 1.0
+    },
+    "pl": {
+      "electric": 96,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 47136,
+      "gasoline": 241,
+      "gas": 527,
+      "total": 48000,
+      "ev_share": 0.2
+    }
+  },
+  {
     "year": 2019,
-    "electric": 40768,
-    "hybrid": 116775,
-    "thermal": 1928756,
-    "total": 2201000,
-    "ev_share": 1.9
+    "vp": {
+      "electric": 41819,
+      "hybrid_rechargeable": 50625,
+      "hybrid": 187085,
+      "diesel": 880400,
+      "gasoline": 1027865,
+      "gas": 13206,
+      "total": 2201000,
+      "ev_share": 1.9
+    },
+    "vul": {
+      "electric": 6602,
+      "hybrid_rechargeable": 880,
+      "hybrid": 5280,
+      "diesel": 374000,
+      "gasoline": 51038,
+      "gas": 2200,
+      "total": 440000,
+      "ev_share": 1.5
+    },
+    "pl": {
+      "electric": 147,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 47777,
+      "gasoline": 244,
+      "gas": 834,
+      "total": 49002,
+      "ev_share": 0.3
+    }
   },
   {
     "year": 2020,
-    "electric": 110921,
-    "hybrid": 186688,
-    "thermal": 1617000,
-    "total": 1650000,
-    "ev_share": 6.7
+    "vp": {
+      "electric": 110550,
+      "hybrid_rechargeable": 79200,
+      "hybrid": 173249,
+      "diesel": 462000,
+      "gasoline": 816751,
+      "gas": 8250,
+      "total": 1650000,
+      "ev_share": 6.7
+    },
+    "vul": {
+      "electric": 11774,
+      "hybrid_rechargeable": 1104,
+      "hybrid": 5520,
+      "diesel": 301760,
+      "gasoline": 46002,
+      "gas": 1840,
+      "total": 368000,
+      "ev_share": 3.2
+    },
+    "pl": {
+      "electric": 172,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 41497,
+      "gasoline": 215,
+      "gas": 1119,
+      "total": 43003,
+      "ev_share": 0.4
+    }
   },
   {
     "year": 2021,
-    "electric": 163000,
-    "hybrid": 235000,
-    "thermal": 1474000,
-    "total": 1660000,
-    "ev_share": 9.8
+    "vp": {
+      "electric": 162678,
+      "hybrid_rechargeable": 101260,
+      "hybrid": 202518,
+      "diesel": 381800,
+      "gasoline": 805104,
+      "gas": 6640,
+      "total": 1660000,
+      "ev_share": 9.8
+    },
+    "vul": {
+      "electric": 19099,
+      "hybrid_rechargeable": 1908,
+      "hybrid": 7638,
+      "diesel": 305600,
+      "gasoline": 45847,
+      "gas": 1908,
+      "total": 382000,
+      "ev_share": 5.0
+    },
+    "pl": {
+      "electric": 316,
+      "hybrid_rechargeable": 0,
+      "hybrid": 45,
+      "diesel": 42751,
+      "gasoline": 222,
+      "gas": 1667,
+      "total": 45001,
+      "ev_share": 0.7
+    }
   },
   {
     "year": 2022,
-    "electric": 208000,
-    "hybrid": 315000,
-    "thermal": 1370000,
-    "total": 1530000,
-    "ev_share": 13.6
+    "vp": {
+      "electric": 208080,
+      "hybrid_rechargeable": 114751,
+      "hybrid": 226441,
+      "diesel": 260100,
+      "gasoline": 716037,
+      "gas": 4591,
+      "total": 1530000,
+      "ev_share": 13.6
+    },
+    "vul": {
+      "electric": 26860,
+      "hybrid_rechargeable": 3160,
+      "hybrid": 9873,
+      "diesel": 304150,
+      "gasoline": 48980,
+      "gas": 1975,
+      "total": 394998,
+      "ev_share": 6.8
+    },
+    "pl": {
+      "electric": 564,
+      "hybrid_rechargeable": 0,
+      "hybrid": 47,
+      "diesel": 43944,
+      "gasoline": 236,
+      "gas": 2207,
+      "total": 46998,
+      "ev_share": 1.2
+    }
   },
   {
     "year": 2023,
-    "electric": 296000,
-    "hybrid": 352000,
-    "thermal": 1283000,
-    "total": 1772000,
-    "ev_share": 16.8
+    "vp": {
+      "electric": 297696,
+      "hybrid_rechargeable": 163026,
+      "hybrid": 292379,
+      "diesel": 230358,
+      "gasoline": 783226,
+      "gas": 5315,
+      "total": 1772000,
+      "ev_share": 16.8
+    },
+    "vul": {
+      "electric": 34850,
+      "hybrid_rechargeable": 4100,
+      "hybrid": 12299,
+      "diesel": 303400,
+      "gasoline": 53303,
+      "gas": 2048,
+      "total": 410000,
+      "ev_share": 8.5
+    },
+    "pl": {
+      "electric": 872,
+      "hybrid_rechargeable": 0,
+      "hybrid": 47,
+      "diesel": 44618,
+      "gasoline": 247,
+      "gas": 2716,
+      "total": 48500,
+      "ev_share": 1.8
+    }
   },
   {
     "year": 2024,
-    "electric": 381000,
-    "hybrid": 415000,
-    "thermal": 1186000,
-    "total": 1822000,
-    "ev_share": 20.9
+    "vp": {
+      "electric": 380800,
+      "hybrid_rechargeable": 209532,
+      "hybrid": 324316,
+      "diesel": 191311,
+      "gasoline": 710576,
+      "gas": 5465,
+      "total": 1822000,
+      "ev_share": 20.9
+    },
+    "vul": {
+      "electric": 44627,
+      "hybrid_rechargeable": 6376,
+      "hybrid": 14879,
+      "diesel": 299625,
+      "gasoline": 57366,
+      "gas": 2127,
+      "total": 425000,
+      "ev_share": 10.5
+    },
+    "pl": {
+      "electric": 1250,
+      "hybrid_rechargeable": 0,
+      "hybrid": 101,
+      "diesel": 45250,
+      "gasoline": 248,
+      "gas": 3151,
+      "total": 50000,
+      "ev_share": 2.5
+    }
   }
 ]

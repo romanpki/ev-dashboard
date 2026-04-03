@@ -1,422 +1,3602 @@
 [
   {
+    "month": "2015-01",
+    "vp": {
+      "electric": 958,
+      "hybrid_rechargeable": 240,
+      "hybrid": 4193,
+      "diesel": 63500,
+      "gasoline": 50322,
+      "gas": 599,
+      "total": 119812
+    },
+    "vul": {
+      "electric": 120,
+      "hybrid_rechargeable": 0,
+      "hybrid": 120,
+      "diesel": 21175,
+      "gasoline": 2527,
+      "gas": 120,
+      "total": 24062
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2531,
+      "gasoline": 13,
+      "gas": 15,
+      "total": 2562
+    }
+  },
+  {
+    "month": "2015-02",
+    "vp": {
+      "electric": 1022,
+      "hybrid_rechargeable": 256,
+      "hybrid": 4473,
+      "diesel": 67734,
+      "gasoline": 53676,
+      "gas": 639,
+      "total": 127800
+    },
+    "vul": {
+      "electric": 128,
+      "hybrid_rechargeable": 0,
+      "hybrid": 128,
+      "diesel": 22587,
+      "gasoline": 2696,
+      "gas": 128,
+      "total": 25667
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2700,
+      "gasoline": 14,
+      "gas": 16,
+      "total": 2733
+    }
+  },
+  {
+    "month": "2015-03",
+    "vp": {
+      "electric": 1342,
+      "hybrid_rechargeable": 335,
+      "hybrid": 5871,
+      "diesel": 88901,
+      "gasoline": 70450,
+      "gas": 839,
+      "total": 167738
+    },
+    "vul": {
+      "electric": 168,
+      "hybrid_rechargeable": 0,
+      "hybrid": 168,
+      "diesel": 29645,
+      "gasoline": 3539,
+      "gas": 168,
+      "total": 33688
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3545,
+      "gasoline": 17,
+      "gas": 22,
+      "total": 3588
+    }
+  },
+  {
+    "month": "2015-04",
+    "vp": {
+      "electric": 1214,
+      "hybrid_rechargeable": 304,
+      "hybrid": 5312,
+      "diesel": 80434,
+      "gasoline": 63739,
+      "gas": 759,
+      "total": 151762
+    },
+    "vul": {
+      "electric": 152,
+      "hybrid_rechargeable": 0,
+      "hybrid": 152,
+      "diesel": 26822,
+      "gasoline": 3201,
+      "gas": 152,
+      "total": 30479
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3207,
+      "gasoline": 17,
+      "gas": 19,
+      "total": 3246
+    }
+  },
+  {
+    "month": "2015-05",
+    "vp": {
+      "electric": 1342,
+      "hybrid_rechargeable": 335,
+      "hybrid": 5871,
+      "diesel": 88901,
+      "gasoline": 70450,
+      "gas": 839,
+      "total": 167738
+    },
+    "vul": {
+      "electric": 168,
+      "hybrid_rechargeable": 0,
+      "hybrid": 168,
+      "diesel": 29645,
+      "gasoline": 3539,
+      "gas": 168,
+      "total": 33688
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3545,
+      "gasoline": 17,
+      "gas": 22,
+      "total": 3588
+    }
+  },
+  {
+    "month": "2015-06",
+    "vp": {
+      "electric": 1406,
+      "hybrid_rechargeable": 351,
+      "hybrid": 6150,
+      "diesel": 93134,
+      "gasoline": 73805,
+      "gas": 879,
+      "total": 175725
+    },
+    "vul": {
+      "electric": 176,
+      "hybrid_rechargeable": 0,
+      "hybrid": 176,
+      "diesel": 31057,
+      "gasoline": 3707,
+      "gas": 176,
+      "total": 35292
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3713,
+      "gasoline": 18,
+      "gas": 23,
+      "total": 3758
+    }
+  },
+  {
+    "month": "2015-07",
+    "vp": {
+      "electric": 1086,
+      "hybrid_rechargeable": 272,
+      "hybrid": 4753,
+      "diesel": 71968,
+      "gasoline": 57030,
+      "gas": 679,
+      "total": 135788
+    },
+    "vul": {
+      "electric": 136,
+      "hybrid_rechargeable": 0,
+      "hybrid": 136,
+      "diesel": 23998,
+      "gasoline": 2865,
+      "gas": 136,
+      "total": 27271
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2869,
+      "gasoline": 15,
+      "gas": 17,
+      "total": 2904
+    }
+  },
+  {
+    "month": "2015-08",
+    "vp": {
+      "electric": 1086,
+      "hybrid_rechargeable": 272,
+      "hybrid": 4753,
+      "diesel": 71968,
+      "gasoline": 57030,
+      "gas": 679,
+      "total": 135788
+    },
+    "vul": {
+      "electric": 136,
+      "hybrid_rechargeable": 0,
+      "hybrid": 136,
+      "diesel": 23998,
+      "gasoline": 2865,
+      "gas": 136,
+      "total": 27271
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2869,
+      "gasoline": 15,
+      "gas": 17,
+      "total": 2904
+    }
+  },
+  {
+    "month": "2015-09",
+    "vp": {
+      "electric": 1470,
+      "hybrid_rechargeable": 367,
+      "hybrid": 6430,
+      "diesel": 97367,
+      "gasoline": 77159,
+      "gas": 919,
+      "total": 183712
+    },
+    "vul": {
+      "electric": 184,
+      "hybrid_rechargeable": 0,
+      "hybrid": 184,
+      "diesel": 32468,
+      "gasoline": 3876,
+      "gas": 184,
+      "total": 36896
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3882,
+      "gasoline": 19,
+      "gas": 24,
+      "total": 3929
+    }
+  },
+  {
+    "month": "2015-10",
+    "vp": {
+      "electric": 1342,
+      "hybrid_rechargeable": 335,
+      "hybrid": 5871,
+      "diesel": 88901,
+      "gasoline": 70450,
+      "gas": 839,
+      "total": 167738
+    },
+    "vul": {
+      "electric": 168,
+      "hybrid_rechargeable": 0,
+      "hybrid": 168,
+      "diesel": 29645,
+      "gasoline": 3539,
+      "gas": 168,
+      "total": 33688
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3545,
+      "gasoline": 17,
+      "gas": 22,
+      "total": 3588
+    }
+  },
+  {
+    "month": "2015-11",
+    "vp": {
+      "electric": 1214,
+      "hybrid_rechargeable": 304,
+      "hybrid": 5312,
+      "diesel": 80434,
+      "gasoline": 63739,
+      "gas": 759,
+      "total": 151762
+    },
+    "vul": {
+      "electric": 152,
+      "hybrid_rechargeable": 0,
+      "hybrid": 152,
+      "diesel": 26822,
+      "gasoline": 3201,
+      "gas": 152,
+      "total": 30479
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3207,
+      "gasoline": 17,
+      "gas": 19,
+      "total": 3246
+    }
+  },
+  {
+    "month": "2015-12",
+    "vp": {
+      "electric": 1853,
+      "hybrid_rechargeable": 463,
+      "hybrid": 8107,
+      "diesel": 122768,
+      "gasoline": 97289,
+      "gas": 1158,
+      "total": 231638
+    },
+    "vul": {
+      "electric": 233,
+      "hybrid_rechargeable": 0,
+      "hybrid": 233,
+      "diesel": 40938,
+      "gasoline": 4884,
+      "gas": 233,
+      "total": 46521
+    },
+    "pl": {
+      "electric": 5,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4895,
+      "gasoline": 24,
+      "gas": 30,
+      "total": 4954
+    }
+  },
+  {
+    "month": "2016-01",
+    "vp": {
+      "electric": 1259,
+      "hybrid_rechargeable": 378,
+      "hybrid": 5667,
+      "diesel": 65488,
+      "gasoline": 52516,
+      "gas": 630,
+      "total": 125938
+    },
+    "vul": {
+      "electric": 149,
+      "hybrid_rechargeable": 0,
+      "hybrid": 124,
+      "diesel": 21766,
+      "gasoline": 2712,
+      "gas": 124,
+      "total": 24875
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2653,
+      "gasoline": 13,
+      "gas": 19,
+      "total": 2688
+    }
+  },
+  {
+    "month": "2016-02",
+    "vp": {
+      "electric": 1343,
+      "hybrid_rechargeable": 403,
+      "hybrid": 6045,
+      "diesel": 69853,
+      "gasoline": 56017,
+      "gas": 672,
+      "total": 134333
+    },
+    "vul": {
+      "electric": 159,
+      "hybrid_rechargeable": 0,
+      "hybrid": 133,
+      "diesel": 23216,
+      "gasoline": 2892,
+      "gas": 133,
+      "total": 26533
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2830,
+      "gasoline": 14,
+      "gas": 20,
+      "total": 2867
+    }
+  },
+  {
+    "month": "2016-03",
+    "vp": {
+      "electric": 1763,
+      "hybrid_rechargeable": 529,
+      "hybrid": 7934,
+      "diesel": 91682,
+      "gasoline": 73522,
+      "gas": 882,
+      "total": 176312
+    },
+    "vul": {
+      "electric": 209,
+      "hybrid_rechargeable": 0,
+      "hybrid": 174,
+      "diesel": 30472,
+      "gasoline": 3796,
+      "gas": 174,
+      "total": 34825
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3714,
+      "gasoline": 19,
+      "gas": 26,
+      "total": 3763
+    }
+  },
+  {
+    "month": "2016-04",
+    "vp": {
+      "electric": 1595,
+      "hybrid_rechargeable": 479,
+      "hybrid": 7178,
+      "diesel": 82951,
+      "gasoline": 66520,
+      "gas": 798,
+      "total": 159521
+    },
+    "vul": {
+      "electric": 189,
+      "hybrid_rechargeable": 0,
+      "hybrid": 158,
+      "diesel": 27570,
+      "gasoline": 3433,
+      "gas": 158,
+      "total": 31508
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3360,
+      "gasoline": 17,
+      "gas": 24,
+      "total": 3404
+    }
+  },
+  {
+    "month": "2016-05",
+    "vp": {
+      "electric": 1763,
+      "hybrid_rechargeable": 529,
+      "hybrid": 7934,
+      "diesel": 91682,
+      "gasoline": 73522,
+      "gas": 882,
+      "total": 176312
+    },
+    "vul": {
+      "electric": 209,
+      "hybrid_rechargeable": 0,
+      "hybrid": 174,
+      "diesel": 30472,
+      "gasoline": 3796,
+      "gas": 174,
+      "total": 34825
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3714,
+      "gasoline": 19,
+      "gas": 26,
+      "total": 3763
+    }
+  },
+  {
+    "month": "2016-06",
+    "vp": {
+      "electric": 1847,
+      "hybrid_rechargeable": 554,
+      "hybrid": 8312,
+      "diesel": 96048,
+      "gasoline": 77023,
+      "gas": 924,
+      "total": 184708
+    },
+    "vul": {
+      "electric": 219,
+      "hybrid_rechargeable": 0,
+      "hybrid": 182,
+      "diesel": 31923,
+      "gasoline": 3977,
+      "gas": 182,
+      "total": 36483
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3891,
+      "gasoline": 19,
+      "gas": 28,
+      "total": 3942
+    }
+  },
+  {
+    "month": "2016-07",
+    "vp": {
+      "electric": 1427,
+      "hybrid_rechargeable": 428,
+      "hybrid": 6423,
+      "diesel": 74219,
+      "gasoline": 59518,
+      "gas": 714,
+      "total": 142729
+    },
+    "vul": {
+      "electric": 169,
+      "hybrid_rechargeable": 0,
+      "hybrid": 141,
+      "diesel": 24668,
+      "gasoline": 3073,
+      "gas": 141,
+      "total": 28192
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3006,
+      "gasoline": 16,
+      "gas": 21,
+      "total": 3046
+    }
+  },
+  {
+    "month": "2016-08",
+    "vp": {
+      "electric": 1427,
+      "hybrid_rechargeable": 428,
+      "hybrid": 6423,
+      "diesel": 74219,
+      "gasoline": 59518,
+      "gas": 714,
+      "total": 142729
+    },
+    "vul": {
+      "electric": 169,
+      "hybrid_rechargeable": 0,
+      "hybrid": 141,
+      "diesel": 24668,
+      "gasoline": 3073,
+      "gas": 141,
+      "total": 28192
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3006,
+      "gasoline": 16,
+      "gas": 21,
+      "total": 3046
+    }
+  },
+  {
+    "month": "2016-09",
+    "vp": {
+      "electric": 1931,
+      "hybrid_rechargeable": 579,
+      "hybrid": 8690,
+      "diesel": 100414,
+      "gasoline": 80524,
+      "gas": 966,
+      "total": 193104
+    },
+    "vul": {
+      "electric": 229,
+      "hybrid_rechargeable": 0,
+      "hybrid": 191,
+      "diesel": 33374,
+      "gasoline": 4157,
+      "gas": 191,
+      "total": 38142
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4067,
+      "gasoline": 21,
+      "gas": 29,
+      "total": 4121
+    }
+  },
+  {
+    "month": "2016-10",
+    "vp": {
+      "electric": 1763,
+      "hybrid_rechargeable": 529,
+      "hybrid": 7934,
+      "diesel": 91682,
+      "gasoline": 73522,
+      "gas": 882,
+      "total": 176312
+    },
+    "vul": {
+      "electric": 209,
+      "hybrid_rechargeable": 0,
+      "hybrid": 174,
+      "diesel": 30472,
+      "gasoline": 3796,
+      "gas": 174,
+      "total": 34825
+    },
+    "pl": {
+      "electric": 4,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3714,
+      "gasoline": 19,
+      "gas": 26,
+      "total": 3763
+    }
+  },
+  {
+    "month": "2016-11",
+    "vp": {
+      "electric": 1595,
+      "hybrid_rechargeable": 479,
+      "hybrid": 7178,
+      "diesel": 82951,
+      "gasoline": 66520,
+      "gas": 798,
+      "total": 159521
+    },
+    "vul": {
+      "electric": 189,
+      "hybrid_rechargeable": 0,
+      "hybrid": 158,
+      "diesel": 27570,
+      "gasoline": 3433,
+      "gas": 158,
+      "total": 31508
+    },
+    "pl": {
+      "electric": 3,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3360,
+      "gasoline": 17,
+      "gas": 24,
+      "total": 3404
+    }
+  },
+  {
+    "month": "2016-12",
+    "vp": {
+      "electric": 2435,
+      "hybrid_rechargeable": 730,
+      "hybrid": 10957,
+      "diesel": 126609,
+      "gasoline": 101531,
+      "gas": 1217,
+      "total": 243479
+    },
+    "vul": {
+      "electric": 289,
+      "hybrid_rechargeable": 0,
+      "hybrid": 240,
+      "diesel": 42080,
+      "gasoline": 5243,
+      "gas": 240,
+      "total": 48092
+    },
+    "pl": {
+      "electric": 5,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 5128,
+      "gasoline": 27,
+      "gas": 36,
+      "total": 5196
+    }
+  },
+  {
+    "month": "2017-01",
+    "vp": {
+      "electric": 1583,
+      "hybrid_rechargeable": 660,
+      "hybrid": 7652,
+      "diesel": 62011,
+      "gasoline": 59240,
+      "gas": 792,
+      "total": 131938
+    },
+    "vul": {
+      "electric": 209,
+      "hybrid_rechargeable": 0,
+      "hybrid": 209,
+      "diesel": 22729,
+      "gasoline": 2847,
+      "gas": 131,
+      "total": 26125
+    },
+    "pl": {
+      "electric": 6,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2832,
+      "gasoline": 14,
+      "gas": 23,
+      "total": 2875
+    }
+  },
+  {
+    "month": "2017-02",
+    "vp": {
+      "electric": 1689,
+      "hybrid_rechargeable": 704,
+      "hybrid": 8163,
+      "diesel": 66145,
+      "gasoline": 63188,
+      "gas": 844,
+      "total": 140733
+    },
+    "vul": {
+      "electric": 223,
+      "hybrid_rechargeable": 0,
+      "hybrid": 223,
+      "diesel": 24244,
+      "gasoline": 3038,
+      "gas": 139,
+      "total": 27867
+    },
+    "pl": {
+      "electric": 6,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3021,
+      "gasoline": 15,
+      "gas": 25,
+      "total": 3067
+    }
+  },
+  {
+    "month": "2017-03",
+    "vp": {
+      "electric": 2217,
+      "hybrid_rechargeable": 924,
+      "hybrid": 10713,
+      "diesel": 86815,
+      "gasoline": 82935,
+      "gas": 1108,
+      "total": 184712
+    },
+    "vul": {
+      "electric": 293,
+      "hybrid_rechargeable": 0,
+      "hybrid": 293,
+      "diesel": 31820,
+      "gasoline": 3986,
+      "gas": 183,
+      "total": 36575
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3965,
+      "gasoline": 20,
+      "gas": 32,
+      "total": 4025
+    }
+  },
+  {
+    "month": "2017-04",
+    "vp": {
+      "electric": 2005,
+      "hybrid_rechargeable": 836,
+      "hybrid": 9693,
+      "diesel": 78547,
+      "gasoline": 75037,
+      "gas": 1003,
+      "total": 167121
+    },
+    "vul": {
+      "electric": 265,
+      "hybrid_rechargeable": 0,
+      "hybrid": 265,
+      "diesel": 28790,
+      "gasoline": 3607,
+      "gas": 165,
+      "total": 33092
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3587,
+      "gasoline": 19,
+      "gas": 29,
+      "total": 3642
+    }
+  },
+  {
+    "month": "2017-05",
+    "vp": {
+      "electric": 2217,
+      "hybrid_rechargeable": 924,
+      "hybrid": 10713,
+      "diesel": 86815,
+      "gasoline": 82935,
+      "gas": 1108,
+      "total": 184712
+    },
+    "vul": {
+      "electric": 293,
+      "hybrid_rechargeable": 0,
+      "hybrid": 293,
+      "diesel": 31820,
+      "gasoline": 3986,
+      "gas": 183,
+      "total": 36575
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3965,
+      "gasoline": 20,
+      "gas": 32,
+      "total": 4025
+    }
+  },
+  {
+    "month": "2017-06",
+    "vp": {
+      "electric": 2322,
+      "hybrid_rechargeable": 968,
+      "hybrid": 11223,
+      "diesel": 90949,
+      "gasoline": 86885,
+      "gas": 1161,
+      "total": 193508
+    },
+    "vul": {
+      "electric": 307,
+      "hybrid_rechargeable": 0,
+      "hybrid": 307,
+      "diesel": 33336,
+      "gasoline": 4175,
+      "gas": 192,
+      "total": 38317
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4154,
+      "gasoline": 21,
+      "gas": 34,
+      "total": 4217
+    }
+  },
+  {
+    "month": "2017-07",
+    "vp": {
+      "electric": 1794,
+      "hybrid_rechargeable": 748,
+      "hybrid": 8673,
+      "diesel": 70279,
+      "gasoline": 67138,
+      "gas": 897,
+      "total": 149529
+    },
+    "vul": {
+      "electric": 237,
+      "hybrid_rechargeable": 0,
+      "hybrid": 237,
+      "diesel": 25759,
+      "gasoline": 3227,
+      "gas": 148,
+      "total": 29608
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3209,
+      "gasoline": 16,
+      "gas": 26,
+      "total": 3258
+    }
+  },
+  {
+    "month": "2017-08",
+    "vp": {
+      "electric": 1794,
+      "hybrid_rechargeable": 748,
+      "hybrid": 8673,
+      "diesel": 70279,
+      "gasoline": 67138,
+      "gas": 897,
+      "total": 149529
+    },
+    "vul": {
+      "electric": 237,
+      "hybrid_rechargeable": 0,
+      "hybrid": 237,
+      "diesel": 25759,
+      "gasoline": 3227,
+      "gas": 148,
+      "total": 29608
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3209,
+      "gasoline": 16,
+      "gas": 26,
+      "total": 3258
+    }
+  },
+  {
+    "month": "2017-09",
+    "vp": {
+      "electric": 2428,
+      "hybrid_rechargeable": 1012,
+      "hybrid": 11734,
+      "diesel": 95083,
+      "gasoline": 90833,
+      "gas": 1214,
+      "total": 202304
+    },
+    "vul": {
+      "electric": 320,
+      "hybrid_rechargeable": 0,
+      "hybrid": 320,
+      "diesel": 34850,
+      "gasoline": 4368,
+      "gas": 200,
+      "total": 40058
+    },
+    "pl": {
+      "electric": 9,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4342,
+      "gasoline": 22,
+      "gas": 35,
+      "total": 4408
+    }
+  },
+  {
+    "month": "2017-10",
+    "vp": {
+      "electric": 2217,
+      "hybrid_rechargeable": 924,
+      "hybrid": 10713,
+      "diesel": 86815,
+      "gasoline": 82935,
+      "gas": 1108,
+      "total": 184712
+    },
+    "vul": {
+      "electric": 293,
+      "hybrid_rechargeable": 0,
+      "hybrid": 293,
+      "diesel": 31820,
+      "gasoline": 3986,
+      "gas": 183,
+      "total": 36575
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3965,
+      "gasoline": 20,
+      "gas": 32,
+      "total": 4025
+    }
+  },
+  {
+    "month": "2017-11",
+    "vp": {
+      "electric": 2005,
+      "hybrid_rechargeable": 836,
+      "hybrid": 9693,
+      "diesel": 78547,
+      "gasoline": 75037,
+      "gas": 1003,
+      "total": 167121
+    },
+    "vul": {
+      "electric": 265,
+      "hybrid_rechargeable": 0,
+      "hybrid": 265,
+      "diesel": 28790,
+      "gasoline": 3607,
+      "gas": 165,
+      "total": 33092
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3587,
+      "gasoline": 19,
+      "gas": 29,
+      "total": 3642
+    }
+  },
+  {
+    "month": "2017-12",
+    "vp": {
+      "electric": 3061,
+      "hybrid_rechargeable": 1275,
+      "hybrid": 14795,
+      "diesel": 119887,
+      "gasoline": 114531,
+      "gas": 1530,
+      "total": 255079
+    },
+    "vul": {
+      "electric": 404,
+      "hybrid_rechargeable": 0,
+      "hybrid": 404,
+      "diesel": 43942,
+      "gasoline": 5505,
+      "gas": 253,
+      "total": 50508
+    },
+    "pl": {
+      "electric": 11,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 5475,
+      "gasoline": 28,
+      "gas": 44,
+      "total": 5558
+    }
+  },
+  {
+    "month": "2018-01",
+    "vp": {
+      "electric": 1901,
+      "hybrid_rechargeable": 1358,
+      "hybrid": 9507,
+      "diesel": 59757,
+      "gasoline": 62474,
+      "gas": 815,
+      "total": 135812
+    },
+    "vul": {
+      "electric": 270,
+      "hybrid_rechargeable": 27,
+      "hybrid": 270,
+      "diesel": 23220,
+      "gasoline": 3078,
+      "gas": 135,
+      "total": 27000
+    },
+    "pl": {
+      "electric": 6,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2946,
+      "gasoline": 15,
+      "gas": 33,
+      "total": 3000
+    }
+  },
+  {
+    "month": "2018-02",
+    "vp": {
+      "electric": 2028,
+      "hybrid_rechargeable": 1449,
+      "hybrid": 10141,
+      "diesel": 63741,
+      "gasoline": 66639,
+      "gas": 869,
+      "total": 144867
+    },
+    "vul": {
+      "electric": 288,
+      "hybrid_rechargeable": 29,
+      "hybrid": 288,
+      "diesel": 24768,
+      "gasoline": 3283,
+      "gas": 144,
+      "total": 28800
+    },
+    "pl": {
+      "electric": 6,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3142,
+      "gasoline": 17,
+      "gas": 35,
+      "total": 3200
+    }
+  },
+  {
+    "month": "2018-03",
+    "vp": {
+      "electric": 2662,
+      "hybrid_rechargeable": 1901,
+      "hybrid": 13310,
+      "diesel": 83661,
+      "gasoline": 87463,
+      "gas": 1141,
+      "total": 190138
+    },
+    "vul": {
+      "electric": 378,
+      "hybrid_rechargeable": 38,
+      "hybrid": 378,
+      "diesel": 32508,
+      "gasoline": 4309,
+      "gas": 189,
+      "total": 37800
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4124,
+      "gasoline": 22,
+      "gas": 46,
+      "total": 4200
+    }
+  },
+  {
+    "month": "2018-04",
+    "vp": {
+      "electric": 2408,
+      "hybrid_rechargeable": 1720,
+      "hybrid": 12042,
+      "diesel": 75693,
+      "gasoline": 79134,
+      "gas": 1032,
+      "total": 172029
+    },
+    "vul": {
+      "electric": 342,
+      "hybrid_rechargeable": 34,
+      "hybrid": 342,
+      "diesel": 29412,
+      "gasoline": 3899,
+      "gas": 171,
+      "total": 34200
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3732,
+      "gasoline": 18,
+      "gas": 42,
+      "total": 3800
+    }
+  },
+  {
+    "month": "2018-05",
+    "vp": {
+      "electric": 2662,
+      "hybrid_rechargeable": 1901,
+      "hybrid": 13310,
+      "diesel": 83661,
+      "gasoline": 87463,
+      "gas": 1141,
+      "total": 190138
+    },
+    "vul": {
+      "electric": 378,
+      "hybrid_rechargeable": 38,
+      "hybrid": 378,
+      "diesel": 32508,
+      "gasoline": 4309,
+      "gas": 189,
+      "total": 37800
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4124,
+      "gasoline": 22,
+      "gas": 46,
+      "total": 4200
+    }
+  },
+  {
+    "month": "2018-06",
+    "vp": {
+      "electric": 2789,
+      "hybrid_rechargeable": 1992,
+      "hybrid": 13943,
+      "diesel": 87644,
+      "gasoline": 91629,
+      "gas": 1195,
+      "total": 199192
+    },
+    "vul": {
+      "electric": 396,
+      "hybrid_rechargeable": 40,
+      "hybrid": 396,
+      "diesel": 34056,
+      "gasoline": 4514,
+      "gas": 198,
+      "total": 39600
+    },
+    "pl": {
+      "electric": 9,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4321,
+      "gasoline": 22,
+      "gas": 48,
+      "total": 4400
+    }
+  },
+  {
+    "month": "2018-07",
+    "vp": {
+      "electric": 2155,
+      "hybrid_rechargeable": 1539,
+      "hybrid": 10774,
+      "diesel": 67725,
+      "gasoline": 70804,
+      "gas": 924,
+      "total": 153921
+    },
+    "vul": {
+      "electric": 306,
+      "hybrid_rechargeable": 31,
+      "hybrid": 306,
+      "diesel": 26316,
+      "gasoline": 3488,
+      "gas": 153,
+      "total": 30600
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3339,
+      "gasoline": 17,
+      "gas": 37,
+      "total": 3400
+    }
+  },
+  {
+    "month": "2018-08",
+    "vp": {
+      "electric": 2155,
+      "hybrid_rechargeable": 1539,
+      "hybrid": 10774,
+      "diesel": 67725,
+      "gasoline": 70804,
+      "gas": 924,
+      "total": 153921
+    },
+    "vul": {
+      "electric": 306,
+      "hybrid_rechargeable": 31,
+      "hybrid": 306,
+      "diesel": 26316,
+      "gasoline": 3488,
+      "gas": 153,
+      "total": 30600
+    },
+    "pl": {
+      "electric": 7,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3339,
+      "gasoline": 17,
+      "gas": 37,
+      "total": 3400
+    }
+  },
+  {
+    "month": "2018-09",
+    "vp": {
+      "electric": 2915,
+      "hybrid_rechargeable": 2082,
+      "hybrid": 14577,
+      "diesel": 91628,
+      "gasoline": 95795,
+      "gas": 1249,
+      "total": 208246
+    },
+    "vul": {
+      "electric": 414,
+      "hybrid_rechargeable": 41,
+      "hybrid": 414,
+      "diesel": 35604,
+      "gasoline": 4720,
+      "gas": 207,
+      "total": 41400
+    },
+    "pl": {
+      "electric": 9,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4517,
+      "gasoline": 23,
+      "gas": 51,
+      "total": 4600
+    }
+  },
+  {
+    "month": "2018-10",
+    "vp": {
+      "electric": 2662,
+      "hybrid_rechargeable": 1901,
+      "hybrid": 13310,
+      "diesel": 83661,
+      "gasoline": 87463,
+      "gas": 1141,
+      "total": 190138
+    },
+    "vul": {
+      "electric": 378,
+      "hybrid_rechargeable": 38,
+      "hybrid": 378,
+      "diesel": 32508,
+      "gasoline": 4309,
+      "gas": 189,
+      "total": 37800
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4124,
+      "gasoline": 22,
+      "gas": 46,
+      "total": 4200
+    }
+  },
+  {
+    "month": "2018-11",
+    "vp": {
+      "electric": 2408,
+      "hybrid_rechargeable": 1720,
+      "hybrid": 12042,
+      "diesel": 75693,
+      "gasoline": 79134,
+      "gas": 1032,
+      "total": 172029
+    },
+    "vul": {
+      "electric": 342,
+      "hybrid_rechargeable": 34,
+      "hybrid": 342,
+      "diesel": 29412,
+      "gasoline": 3899,
+      "gas": 171,
+      "total": 34200
+    },
+    "pl": {
+      "electric": 8,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3732,
+      "gasoline": 18,
+      "gas": 42,
+      "total": 3800
+    }
+  },
+  {
+    "month": "2018-12",
+    "vp": {
+      "electric": 3676,
+      "hybrid_rechargeable": 2626,
+      "hybrid": 18380,
+      "diesel": 115531,
+      "gasoline": 120783,
+      "gas": 1575,
+      "total": 262571
+    },
+    "vul": {
+      "electric": 522,
+      "hybrid_rechargeable": 52,
+      "hybrid": 522,
+      "diesel": 44892,
+      "gasoline": 5951,
+      "gas": 261,
+      "total": 52200
+    },
+    "pl": {
+      "electric": 12,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 5696,
+      "gasoline": 28,
+      "gas": 64,
+      "total": 5800
+    }
+  },
+  {
+    "month": "2019-01",
+    "vp": {
+      "electric": 2614,
+      "hybrid_rechargeable": 3164,
+      "hybrid": 11693,
+      "diesel": 55025,
+      "gasoline": 64241,
+      "gas": 825,
+      "total": 137562
+    },
+    "vul": {
+      "electric": 412,
+      "hybrid_rechargeable": 55,
+      "hybrid": 330,
+      "diesel": 23375,
+      "gasoline": 3190,
+      "gas": 138,
+      "total": 27500
+    },
+    "pl": {
+      "electric": 9,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2985,
+      "gasoline": 16,
+      "gas": 52,
+      "total": 3062
+    }
+  },
+  {
+    "month": "2019-02",
+    "vp": {
+      "electric": 2788,
+      "hybrid_rechargeable": 3375,
+      "hybrid": 12472,
+      "diesel": 58693,
+      "gasoline": 68525,
+      "gas": 880,
+      "total": 146733
+    },
+    "vul": {
+      "electric": 440,
+      "hybrid_rechargeable": 59,
+      "hybrid": 352,
+      "diesel": 24933,
+      "gasoline": 3402,
+      "gas": 147,
+      "total": 29333
+    },
+    "pl": {
+      "electric": 10,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3185,
+      "gasoline": 16,
+      "gas": 56,
+      "total": 3267
+    }
+  },
+  {
+    "month": "2019-03",
+    "vp": {
+      "electric": 3659,
+      "hybrid_rechargeable": 4430,
+      "hybrid": 16370,
+      "diesel": 77035,
+      "gasoline": 89938,
+      "gas": 1156,
+      "total": 192588
+    },
+    "vul": {
+      "electric": 578,
+      "hybrid_rechargeable": 77,
+      "hybrid": 462,
+      "diesel": 32725,
+      "gasoline": 4466,
+      "gas": 192,
+      "total": 38500
+    },
+    "pl": {
+      "electric": 13,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4181,
+      "gasoline": 21,
+      "gas": 73,
+      "total": 4288
+    }
+  },
+  {
+    "month": "2019-04",
+    "vp": {
+      "electric": 3311,
+      "hybrid_rechargeable": 4008,
+      "hybrid": 14811,
+      "diesel": 69698,
+      "gasoline": 81373,
+      "gas": 1045,
+      "total": 174246
+    },
+    "vul": {
+      "electric": 522,
+      "hybrid_rechargeable": 70,
+      "hybrid": 418,
+      "diesel": 29608,
+      "gasoline": 4041,
+      "gas": 174,
+      "total": 34833
+    },
+    "pl": {
+      "electric": 12,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3782,
+      "gasoline": 19,
+      "gas": 66,
+      "total": 3879
+    }
+  },
+  {
+    "month": "2019-05",
+    "vp": {
+      "electric": 3659,
+      "hybrid_rechargeable": 4430,
+      "hybrid": 16370,
+      "diesel": 77035,
+      "gasoline": 89938,
+      "gas": 1156,
+      "total": 192588
+    },
+    "vul": {
+      "electric": 578,
+      "hybrid_rechargeable": 77,
+      "hybrid": 462,
+      "diesel": 32725,
+      "gasoline": 4466,
+      "gas": 192,
+      "total": 38500
+    },
+    "pl": {
+      "electric": 13,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4181,
+      "gasoline": 21,
+      "gas": 73,
+      "total": 4288
+    }
+  },
+  {
+    "month": "2019-06",
+    "vp": {
+      "electric": 3833,
+      "hybrid_rechargeable": 4640,
+      "hybrid": 17149,
+      "diesel": 80703,
+      "gasoline": 94222,
+      "gas": 1211,
+      "total": 201758
+    },
+    "vul": {
+      "electric": 605,
+      "hybrid_rechargeable": 81,
+      "hybrid": 484,
+      "diesel": 34283,
+      "gasoline": 4678,
+      "gas": 202,
+      "total": 40333
+    },
+    "pl": {
+      "electric": 13,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4380,
+      "gasoline": 23,
+      "gas": 76,
+      "total": 4492
+    }
+  },
+  {
+    "month": "2019-07",
+    "vp": {
+      "electric": 2962,
+      "hybrid_rechargeable": 3586,
+      "hybrid": 13252,
+      "diesel": 62362,
+      "gasoline": 72807,
+      "gas": 935,
+      "total": 155904
+    },
+    "vul": {
+      "electric": 468,
+      "hybrid_rechargeable": 62,
+      "hybrid": 374,
+      "diesel": 26492,
+      "gasoline": 3615,
+      "gas": 156,
+      "total": 31167
+    },
+    "pl": {
+      "electric": 10,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3384,
+      "gasoline": 18,
+      "gas": 59,
+      "total": 3471
+    }
+  },
+  {
+    "month": "2019-08",
+    "vp": {
+      "electric": 2962,
+      "hybrid_rechargeable": 3586,
+      "hybrid": 13252,
+      "diesel": 62362,
+      "gasoline": 72807,
+      "gas": 935,
+      "total": 155904
+    },
+    "vul": {
+      "electric": 468,
+      "hybrid_rechargeable": 62,
+      "hybrid": 374,
+      "diesel": 26492,
+      "gasoline": 3615,
+      "gas": 156,
+      "total": 31167
+    },
+    "pl": {
+      "electric": 10,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3384,
+      "gasoline": 18,
+      "gas": 59,
+      "total": 3471
+    }
+  },
+  {
+    "month": "2019-09",
+    "vp": {
+      "electric": 4008,
+      "hybrid_rechargeable": 4851,
+      "hybrid": 17929,
+      "diesel": 84372,
+      "gasoline": 98503,
+      "gas": 1266,
+      "total": 210929
+    },
+    "vul": {
+      "electric": 633,
+      "hybrid_rechargeable": 84,
+      "hybrid": 506,
+      "diesel": 35842,
+      "gasoline": 4891,
+      "gas": 211,
+      "total": 42167
+    },
+    "pl": {
+      "electric": 14,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4579,
+      "gasoline": 23,
+      "gas": 80,
+      "total": 4696
+    }
+  },
+  {
+    "month": "2019-10",
+    "vp": {
+      "electric": 3659,
+      "hybrid_rechargeable": 4430,
+      "hybrid": 16370,
+      "diesel": 77035,
+      "gasoline": 89938,
+      "gas": 1156,
+      "total": 192588
+    },
+    "vul": {
+      "electric": 578,
+      "hybrid_rechargeable": 77,
+      "hybrid": 462,
+      "diesel": 32725,
+      "gasoline": 4466,
+      "gas": 192,
+      "total": 38500
+    },
+    "pl": {
+      "electric": 13,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 4181,
+      "gasoline": 21,
+      "gas": 73,
+      "total": 4288
+    }
+  },
+  {
+    "month": "2019-11",
+    "vp": {
+      "electric": 3311,
+      "hybrid_rechargeable": 4008,
+      "hybrid": 14811,
+      "diesel": 69698,
+      "gasoline": 81373,
+      "gas": 1045,
+      "total": 174246
+    },
+    "vul": {
+      "electric": 522,
+      "hybrid_rechargeable": 70,
+      "hybrid": 418,
+      "diesel": 29608,
+      "gasoline": 4041,
+      "gas": 174,
+      "total": 34833
+    },
+    "pl": {
+      "electric": 12,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3782,
+      "gasoline": 19,
+      "gas": 66,
+      "total": 3879
+    }
+  },
+  {
+    "month": "2019-12",
+    "vp": {
+      "electric": 5053,
+      "hybrid_rechargeable": 6117,
+      "hybrid": 22606,
+      "diesel": 106382,
+      "gasoline": 124200,
+      "gas": 1596,
+      "total": 265954
+    },
+    "vul": {
+      "electric": 798,
+      "hybrid_rechargeable": 106,
+      "hybrid": 638,
+      "diesel": 45192,
+      "gasoline": 6167,
+      "gas": 266,
+      "total": 53167
+    },
+    "pl": {
+      "electric": 18,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 5773,
+      "gasoline": 29,
+      "gas": 101,
+      "total": 5921
+    }
+  },
+  {
     "month": "2020-01",
-    "vp": 8200,
-    "vul": 1800,
-    "pl": 60,
-    "total": 10060
+    "vp": {
+      "electric": 6909,
+      "hybrid_rechargeable": 4950,
+      "hybrid": 10828,
+      "diesel": 28875,
+      "gasoline": 51047,
+      "gas": 516,
+      "total": 103125
+    },
+    "vul": {
+      "electric": 736,
+      "hybrid_rechargeable": 69,
+      "hybrid": 345,
+      "diesel": 18860,
+      "gasoline": 2875,
+      "gas": 115,
+      "total": 23000
+    },
+    "pl": {
+      "electric": 11,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2594,
+      "gasoline": 13,
+      "gas": 70,
+      "total": 2688
+    }
   },
   {
     "month": "2020-02",
-    "vp": 7100,
-    "vul": 1600,
-    "pl": 50,
-    "total": 8750
+    "vp": {
+      "electric": 7370,
+      "hybrid_rechargeable": 5280,
+      "hybrid": 11550,
+      "diesel": 30800,
+      "gasoline": 54450,
+      "gas": 550,
+      "total": 110000
+    },
+    "vul": {
+      "electric": 785,
+      "hybrid_rechargeable": 74,
+      "hybrid": 368,
+      "diesel": 20117,
+      "gasoline": 3066,
+      "gas": 123,
+      "total": 24533
+    },
+    "pl": {
+      "electric": 11,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2767,
+      "gasoline": 14,
+      "gas": 75,
+      "total": 2867
+    }
   },
   {
     "month": "2020-03",
-    "vp": 4300,
-    "vul": 900,
-    "pl": 30,
-    "total": 5230
+    "vp": {
+      "electric": 9673,
+      "hybrid_rechargeable": 6930,
+      "hybrid": 15159,
+      "diesel": 40425,
+      "gasoline": 71466,
+      "gas": 722,
+      "total": 144375
+    },
+    "vul": {
+      "electric": 1030,
+      "hybrid_rechargeable": 97,
+      "hybrid": 483,
+      "diesel": 26404,
+      "gasoline": 4025,
+      "gas": 161,
+      "total": 32200
+    },
+    "pl": {
+      "electric": 15,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3631,
+      "gasoline": 19,
+      "gas": 98,
+      "total": 3763
+    }
   },
   {
     "month": "2020-04",
-    "vp": 3500,
-    "vul": 800,
-    "pl": 25,
-    "total": 4325
+    "vp": {
+      "electric": 8752,
+      "hybrid_rechargeable": 6270,
+      "hybrid": 13716,
+      "diesel": 36575,
+      "gasoline": 64659,
+      "gas": 653,
+      "total": 130625
+    },
+    "vul": {
+      "electric": 932,
+      "hybrid_rechargeable": 87,
+      "hybrid": 437,
+      "diesel": 23889,
+      "gasoline": 3642,
+      "gas": 146,
+      "total": 29133
+    },
+    "pl": {
+      "electric": 14,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3285,
+      "gasoline": 16,
+      "gas": 89,
+      "total": 3404
+    }
   },
   {
     "month": "2020-05",
-    "vp": 8100,
-    "vul": 1700,
-    "pl": 55,
-    "total": 9855
+    "vp": {
+      "electric": 9673,
+      "hybrid_rechargeable": 6930,
+      "hybrid": 15159,
+      "diesel": 40425,
+      "gasoline": 71466,
+      "gas": 722,
+      "total": 144375
+    },
+    "vul": {
+      "electric": 1030,
+      "hybrid_rechargeable": 97,
+      "hybrid": 483,
+      "diesel": 26404,
+      "gasoline": 4025,
+      "gas": 161,
+      "total": 32200
+    },
+    "pl": {
+      "electric": 15,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3631,
+      "gasoline": 19,
+      "gas": 98,
+      "total": 3763
+    }
   },
   {
     "month": "2020-06",
-    "vp": 10200,
-    "vul": 2100,
-    "pl": 70,
-    "total": 12370
+    "vp": {
+      "electric": 10134,
+      "hybrid_rechargeable": 7260,
+      "hybrid": 15881,
+      "diesel": 42350,
+      "gasoline": 74869,
+      "gas": 756,
+      "total": 151250
+    },
+    "vul": {
+      "electric": 1079,
+      "hybrid_rechargeable": 101,
+      "hybrid": 506,
+      "diesel": 27661,
+      "gasoline": 4217,
+      "gas": 169,
+      "total": 33733
+    },
+    "pl": {
+      "electric": 16,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3804,
+      "gasoline": 20,
+      "gas": 102,
+      "total": 3942
+    }
   },
   {
     "month": "2020-07",
-    "vp": 12100,
-    "vul": 2500,
-    "pl": 85,
-    "total": 14685
+    "vp": {
+      "electric": 7831,
+      "hybrid_rechargeable": 5610,
+      "hybrid": 12272,
+      "diesel": 32725,
+      "gasoline": 57853,
+      "gas": 584,
+      "total": 116875
+    },
+    "vul": {
+      "electric": 834,
+      "hybrid_rechargeable": 78,
+      "hybrid": 391,
+      "diesel": 21375,
+      "gasoline": 3259,
+      "gas": 130,
+      "total": 26067
+    },
+    "pl": {
+      "electric": 12,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2939,
+      "gasoline": 16,
+      "gas": 79,
+      "total": 3046
+    }
   },
   {
     "month": "2020-08",
-    "vp": 13200,
-    "vul": 2700,
-    "pl": 95,
-    "total": 15995
+    "vp": {
+      "electric": 7831,
+      "hybrid_rechargeable": 5610,
+      "hybrid": 12272,
+      "diesel": 32725,
+      "gasoline": 57853,
+      "gas": 584,
+      "total": 116875
+    },
+    "vul": {
+      "electric": 834,
+      "hybrid_rechargeable": 78,
+      "hybrid": 391,
+      "diesel": 21375,
+      "gasoline": 3259,
+      "gas": 130,
+      "total": 26067
+    },
+    "pl": {
+      "electric": 12,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 2939,
+      "gasoline": 16,
+      "gas": 79,
+      "total": 3046
+    }
   },
   {
     "month": "2020-09",
-    "vp": 16100,
-    "vul": 3200,
-    "pl": 110,
-    "total": 19410
+    "vp": {
+      "electric": 10594,
+      "hybrid_rechargeable": 7590,
+      "hybrid": 16603,
+      "diesel": 44275,
+      "gasoline": 78272,
+      "gas": 791,
+      "total": 158125
+    },
+    "vul": {
+      "electric": 1129,
+      "hybrid_rechargeable": 106,
+      "hybrid": 529,
+      "diesel": 28919,
+      "gasoline": 4408,
+      "gas": 176,
+      "total": 35267
+    },
+    "pl": {
+      "electric": 16,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3977,
+      "gasoline": 21,
+      "gas": 107,
+      "total": 4121
+    }
   },
   {
     "month": "2020-10",
-    "vp": 13500,
-    "vul": 2800,
-    "pl": 95,
-    "total": 16395
+    "vp": {
+      "electric": 9673,
+      "hybrid_rechargeable": 6930,
+      "hybrid": 15159,
+      "diesel": 40425,
+      "gasoline": 71466,
+      "gas": 722,
+      "total": 144375
+    },
+    "vul": {
+      "electric": 1030,
+      "hybrid_rechargeable": 97,
+      "hybrid": 483,
+      "diesel": 26404,
+      "gasoline": 4025,
+      "gas": 161,
+      "total": 32200
+    },
+    "pl": {
+      "electric": 15,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3631,
+      "gasoline": 19,
+      "gas": 98,
+      "total": 3763
+    }
   },
   {
     "month": "2020-11",
-    "vp": 18900,
-    "vul": 3900,
-    "pl": 130,
-    "total": 22930
+    "vp": {
+      "electric": 8752,
+      "hybrid_rechargeable": 6270,
+      "hybrid": 13716,
+      "diesel": 36575,
+      "gasoline": 64659,
+      "gas": 653,
+      "total": 130625
+    },
+    "vul": {
+      "electric": 932,
+      "hybrid_rechargeable": 87,
+      "hybrid": 437,
+      "diesel": 23889,
+      "gasoline": 3642,
+      "gas": 146,
+      "total": 29133
+    },
+    "pl": {
+      "electric": 14,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 3285,
+      "gasoline": 16,
+      "gas": 89,
+      "total": 3404
+    }
   },
   {
     "month": "2020-12",
-    "vp": 22500,
-    "vul": 4500,
-    "pl": 155,
-    "total": 27155
+    "vp": {
+      "electric": 13358,
+      "hybrid_rechargeable": 9570,
+      "hybrid": 20934,
+      "diesel": 55825,
+      "gasoline": 98691,
+      "gas": 997,
+      "total": 199375
+    },
+    "vul": {
+      "electric": 1423,
+      "hybrid_rechargeable": 133,
+      "hybrid": 667,
+      "diesel": 36463,
+      "gasoline": 5559,
+      "gas": 222,
+      "total": 44467
+    },
+    "pl": {
+      "electric": 21,
+      "hybrid_rechargeable": 0,
+      "hybrid": 0,
+      "diesel": 5014,
+      "gasoline": 26,
+      "gas": 135,
+      "total": 5196
+    }
   },
   {
     "month": "2021-01",
-    "vp": 10200,
-    "vul": 2100,
-    "pl": 75,
-    "total": 12375
+    "vp": {
+      "electric": 10168,
+      "hybrid_rechargeable": 6329,
+      "hybrid": 12658,
+      "diesel": 23862,
+      "gasoline": 50318,
+      "gas": 415,
+      "total": 103750
+    },
+    "vul": {
+      "electric": 1194,
+      "hybrid_rechargeable": 119,
+      "hybrid": 478,
+      "diesel": 19100,
+      "gasoline": 2865,
+      "gas": 119,
+      "total": 23875
+    },
+    "pl": {
+      "electric": 20,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2671,
+      "gasoline": 14,
+      "gas": 104,
+      "total": 2812
+    }
   },
   {
     "month": "2021-02",
-    "vp": 11800,
-    "vul": 2400,
-    "pl": 85,
-    "total": 14285
+    "vp": {
+      "electric": 10845,
+      "hybrid_rechargeable": 6751,
+      "hybrid": 13501,
+      "diesel": 25453,
+      "gasoline": 53674,
+      "gas": 443,
+      "total": 110667
+    },
+    "vul": {
+      "electric": 1273,
+      "hybrid_rechargeable": 127,
+      "hybrid": 509,
+      "diesel": 20374,
+      "gasoline": 3057,
+      "gas": 127,
+      "total": 25467
+    },
+    "pl": {
+      "electric": 21,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2850,
+      "gasoline": 15,
+      "gas": 111,
+      "total": 3000
+    }
   },
   {
     "month": "2021-03",
-    "vp": 16200,
-    "vul": 3300,
-    "pl": 115,
-    "total": 19615
+    "vp": {
+      "electric": 14234,
+      "hybrid_rechargeable": 8860,
+      "hybrid": 17720,
+      "diesel": 33408,
+      "gasoline": 70447,
+      "gas": 581,
+      "total": 145250
+    },
+    "vul": {
+      "electric": 1671,
+      "hybrid_rechargeable": 167,
+      "hybrid": 668,
+      "diesel": 26740,
+      "gasoline": 4012,
+      "gas": 167,
+      "total": 33425
+    },
+    "pl": {
+      "electric": 28,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3741,
+      "gasoline": 19,
+      "gas": 146,
+      "total": 3938
+    }
   },
   {
     "month": "2021-04",
-    "vp": 17500,
-    "vul": 3600,
-    "pl": 130,
-    "total": 21230
+    "vp": {
+      "electric": 12879,
+      "hybrid_rechargeable": 8016,
+      "hybrid": 16033,
+      "diesel": 30226,
+      "gasoline": 63737,
+      "gas": 526,
+      "total": 131417
+    },
+    "vul": {
+      "electric": 1512,
+      "hybrid_rechargeable": 151,
+      "hybrid": 605,
+      "diesel": 24194,
+      "gasoline": 3629,
+      "gas": 151,
+      "total": 30242
+    },
+    "pl": {
+      "electric": 25,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3384,
+      "gasoline": 17,
+      "gas": 132,
+      "total": 3562
+    }
   },
   {
     "month": "2021-05",
-    "vp": 19200,
-    "vul": 4000,
-    "pl": 145,
-    "total": 23345
+    "vp": {
+      "electric": 14234,
+      "hybrid_rechargeable": 8860,
+      "hybrid": 17720,
+      "diesel": 33408,
+      "gasoline": 70447,
+      "gas": 581,
+      "total": 145250
+    },
+    "vul": {
+      "electric": 1671,
+      "hybrid_rechargeable": 167,
+      "hybrid": 668,
+      "diesel": 26740,
+      "gasoline": 4012,
+      "gas": 167,
+      "total": 33425
+    },
+    "pl": {
+      "electric": 28,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3741,
+      "gasoline": 19,
+      "gas": 146,
+      "total": 3938
+    }
   },
   {
     "month": "2021-06",
-    "vp": 18100,
-    "vul": 3700,
-    "pl": 135,
-    "total": 21935
+    "vp": {
+      "electric": 14912,
+      "hybrid_rechargeable": 9282,
+      "hybrid": 18564,
+      "diesel": 34998,
+      "gasoline": 73802,
+      "gas": 609,
+      "total": 152167
+    },
+    "vul": {
+      "electric": 1751,
+      "hybrid_rechargeable": 175,
+      "hybrid": 700,
+      "diesel": 28014,
+      "gasoline": 4202,
+      "gas": 175,
+      "total": 35017
+    },
+    "pl": {
+      "electric": 29,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3919,
+      "gasoline": 20,
+      "gas": 153,
+      "total": 4125
+    }
   },
   {
     "month": "2021-07",
-    "vp": 19800,
-    "vul": 4100,
-    "pl": 150,
-    "total": 24050
+    "vp": {
+      "electric": 11523,
+      "hybrid_rechargeable": 7173,
+      "hybrid": 14345,
+      "diesel": 27044,
+      "gasoline": 57028,
+      "gas": 470,
+      "total": 117583
+    },
+    "vul": {
+      "electric": 1353,
+      "hybrid_rechargeable": 135,
+      "hybrid": 541,
+      "diesel": 21646,
+      "gasoline": 3248,
+      "gas": 135,
+      "total": 27058
+    },
+    "pl": {
+      "electric": 22,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3029,
+      "gasoline": 16,
+      "gas": 118,
+      "total": 3188
+    }
   },
   {
     "month": "2021-08",
-    "vp": 22100,
-    "vul": 4600,
-    "pl": 165,
-    "total": 26865
+    "vp": {
+      "electric": 11523,
+      "hybrid_rechargeable": 7173,
+      "hybrid": 14345,
+      "diesel": 27044,
+      "gasoline": 57028,
+      "gas": 470,
+      "total": 117583
+    },
+    "vul": {
+      "electric": 1353,
+      "hybrid_rechargeable": 135,
+      "hybrid": 541,
+      "diesel": 21646,
+      "gasoline": 3248,
+      "gas": 135,
+      "total": 27058
+    },
+    "pl": {
+      "electric": 22,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3029,
+      "gasoline": 16,
+      "gas": 118,
+      "total": 3188
+    }
   },
   {
     "month": "2021-09",
-    "vp": 24300,
-    "vul": 5000,
-    "pl": 185,
-    "total": 29485
+    "vp": {
+      "electric": 15590,
+      "hybrid_rechargeable": 9704,
+      "hybrid": 19408,
+      "diesel": 36589,
+      "gasoline": 77156,
+      "gas": 636,
+      "total": 159083
+    },
+    "vul": {
+      "electric": 1830,
+      "hybrid_rechargeable": 183,
+      "hybrid": 732,
+      "diesel": 29286,
+      "gasoline": 4394,
+      "gas": 183,
+      "total": 36608
+    },
+    "pl": {
+      "electric": 30,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 4096,
+      "gasoline": 22,
+      "gas": 160,
+      "total": 4312
+    }
   },
   {
     "month": "2021-10",
-    "vp": 23100,
-    "vul": 4800,
-    "pl": 175,
-    "total": 28075
+    "vp": {
+      "electric": 14234,
+      "hybrid_rechargeable": 8860,
+      "hybrid": 17720,
+      "diesel": 33408,
+      "gasoline": 70447,
+      "gas": 581,
+      "total": 145250
+    },
+    "vul": {
+      "electric": 1671,
+      "hybrid_rechargeable": 167,
+      "hybrid": 668,
+      "diesel": 26740,
+      "gasoline": 4012,
+      "gas": 167,
+      "total": 33425
+    },
+    "pl": {
+      "electric": 28,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3741,
+      "gasoline": 19,
+      "gas": 146,
+      "total": 3938
+    }
   },
   {
     "month": "2021-11",
-    "vp": 25800,
-    "vul": 5300,
-    "pl": 200,
-    "total": 31300
+    "vp": {
+      "electric": 12879,
+      "hybrid_rechargeable": 8016,
+      "hybrid": 16033,
+      "diesel": 30226,
+      "gasoline": 63737,
+      "gas": 526,
+      "total": 131417
+    },
+    "vul": {
+      "electric": 1512,
+      "hybrid_rechargeable": 151,
+      "hybrid": 605,
+      "diesel": 24194,
+      "gasoline": 3629,
+      "gas": 151,
+      "total": 30242
+    },
+    "pl": {
+      "electric": 25,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3384,
+      "gasoline": 17,
+      "gas": 132,
+      "total": 3562
+    }
   },
   {
     "month": "2021-12",
-    "vp": 32100,
-    "vul": 6600,
-    "pl": 245,
-    "total": 38945
+    "vp": {
+      "electric": 19657,
+      "hybrid_rechargeable": 12236,
+      "hybrid": 24471,
+      "diesel": 46134,
+      "gasoline": 97283,
+      "gas": 802,
+      "total": 200583
+    },
+    "vul": {
+      "electric": 2308,
+      "hybrid_rechargeable": 231,
+      "hybrid": 923,
+      "diesel": 36926,
+      "gasoline": 5539,
+      "gas": 231,
+      "total": 46158
+    },
+    "pl": {
+      "electric": 38,
+      "hybrid_rechargeable": 0,
+      "hybrid": 5,
+      "diesel": 5166,
+      "gasoline": 28,
+      "gas": 201,
+      "total": 5438
+    }
   },
   {
     "month": "2022-01",
-    "vp": 15100,
-    "vul": 3100,
-    "pl": 115,
-    "total": 18315
+    "vp": {
+      "electric": 13005,
+      "hybrid_rechargeable": 7172,
+      "hybrid": 14152,
+      "diesel": 16256,
+      "gasoline": 44753,
+      "gas": 287,
+      "total": 95625
+    },
+    "vul": {
+      "electric": 1679,
+      "hybrid_rechargeable": 198,
+      "hybrid": 617,
+      "diesel": 19010,
+      "gasoline": 3061,
+      "gas": 123,
+      "total": 24688
+    },
+    "pl": {
+      "electric": 35,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2747,
+      "gasoline": 15,
+      "gas": 138,
+      "total": 2938
+    }
   },
   {
     "month": "2022-02",
-    "vp": 18200,
-    "vul": 3700,
-    "pl": 140,
-    "total": 22040
+    "vp": {
+      "electric": 13872,
+      "hybrid_rechargeable": 7650,
+      "hybrid": 15096,
+      "diesel": 17340,
+      "gasoline": 47736,
+      "gas": 306,
+      "total": 102000
+    },
+    "vul": {
+      "electric": 1791,
+      "hybrid_rechargeable": 211,
+      "hybrid": 658,
+      "diesel": 20276,
+      "gasoline": 3265,
+      "gas": 132,
+      "total": 26333
+    },
+    "pl": {
+      "electric": 38,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2929,
+      "gasoline": 16,
+      "gas": 147,
+      "total": 3133
+    }
   },
   {
     "month": "2022-03",
-    "vp": 24300,
-    "vul": 4900,
-    "pl": 185,
-    "total": 29385
+    "vp": {
+      "electric": 18207,
+      "hybrid_rechargeable": 10041,
+      "hybrid": 19814,
+      "diesel": 22759,
+      "gasoline": 62652,
+      "gas": 402,
+      "total": 133875
+    },
+    "vul": {
+      "electric": 2350,
+      "hybrid_rechargeable": 276,
+      "hybrid": 864,
+      "diesel": 26613,
+      "gasoline": 4286,
+      "gas": 173,
+      "total": 34562
+    },
+    "pl": {
+      "electric": 49,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3845,
+      "gasoline": 21,
+      "gas": 193,
+      "total": 4112
+    }
   },
   {
     "month": "2022-04",
-    "vp": 19800,
-    "vul": 4100,
-    "pl": 155,
-    "total": 24055
+    "vp": {
+      "electric": 16473,
+      "hybrid_rechargeable": 9084,
+      "hybrid": 17926,
+      "diesel": 20591,
+      "gasoline": 56688,
+      "gas": 363,
+      "total": 121125
+    },
+    "vul": {
+      "electric": 2126,
+      "hybrid_rechargeable": 250,
+      "hybrid": 782,
+      "diesel": 24079,
+      "gasoline": 3878,
+      "gas": 156,
+      "total": 31271
+    },
+    "pl": {
+      "electric": 45,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3479,
+      "gasoline": 18,
+      "gas": 175,
+      "total": 3721
+    }
   },
   {
     "month": "2022-05",
-    "vp": 21200,
-    "vul": 4300,
-    "pl": 165,
-    "total": 25665
+    "vp": {
+      "electric": 18207,
+      "hybrid_rechargeable": 10041,
+      "hybrid": 19814,
+      "diesel": 22759,
+      "gasoline": 62652,
+      "gas": 402,
+      "total": 133875
+    },
+    "vul": {
+      "electric": 2350,
+      "hybrid_rechargeable": 276,
+      "hybrid": 864,
+      "diesel": 26613,
+      "gasoline": 4286,
+      "gas": 173,
+      "total": 34562
+    },
+    "pl": {
+      "electric": 49,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3845,
+      "gasoline": 21,
+      "gas": 193,
+      "total": 4112
+    }
   },
   {
     "month": "2022-06",
-    "vp": 23100,
-    "vul": 4700,
-    "pl": 180,
-    "total": 27980
+    "vp": {
+      "electric": 19074,
+      "hybrid_rechargeable": 10519,
+      "hybrid": 20757,
+      "diesel": 23842,
+      "gasoline": 65637,
+      "gas": 421,
+      "total": 140250
+    },
+    "vul": {
+      "electric": 2462,
+      "hybrid_rechargeable": 290,
+      "hybrid": 905,
+      "diesel": 27880,
+      "gasoline": 4490,
+      "gas": 181,
+      "total": 36208
+    },
+    "pl": {
+      "electric": 52,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 4028,
+      "gasoline": 22,
+      "gas": 202,
+      "total": 4308
+    }
   },
   {
     "month": "2022-07",
-    "vp": 26800,
-    "vul": 5500,
-    "pl": 210,
-    "total": 32510
+    "vp": {
+      "electric": 14739,
+      "hybrid_rechargeable": 8128,
+      "hybrid": 16040,
+      "diesel": 18424,
+      "gasoline": 50719,
+      "gas": 325,
+      "total": 108375
+    },
+    "vul": {
+      "electric": 1903,
+      "hybrid_rechargeable": 224,
+      "hybrid": 699,
+      "diesel": 21544,
+      "gasoline": 3469,
+      "gas": 140,
+      "total": 27979
+    },
+    "pl": {
+      "electric": 40,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3113,
+      "gasoline": 17,
+      "gas": 156,
+      "total": 3329
+    }
   },
   {
     "month": "2022-08",
-    "vp": 28900,
-    "vul": 5900,
-    "pl": 225,
-    "total": 35025
+    "vp": {
+      "electric": 14739,
+      "hybrid_rechargeable": 8128,
+      "hybrid": 16040,
+      "diesel": 18424,
+      "gasoline": 50719,
+      "gas": 325,
+      "total": 108375
+    },
+    "vul": {
+      "electric": 1903,
+      "hybrid_rechargeable": 224,
+      "hybrid": 699,
+      "diesel": 21544,
+      "gasoline": 3469,
+      "gas": 140,
+      "total": 27979
+    },
+    "pl": {
+      "electric": 40,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3113,
+      "gasoline": 17,
+      "gas": 156,
+      "total": 3329
+    }
   },
   {
     "month": "2022-09",
-    "vp": 34100,
-    "vul": 7000,
-    "pl": 265,
-    "total": 41365
+    "vp": {
+      "electric": 19941,
+      "hybrid_rechargeable": 10997,
+      "hybrid": 21700,
+      "diesel": 24926,
+      "gasoline": 68621,
+      "gas": 440,
+      "total": 146625
+    },
+    "vul": {
+      "electric": 2574,
+      "hybrid_rechargeable": 303,
+      "hybrid": 946,
+      "diesel": 29148,
+      "gasoline": 4694,
+      "gas": 189,
+      "total": 37854
+    },
+    "pl": {
+      "electric": 54,
+      "hybrid_rechargeable": 0,
+      "hybrid": 5,
+      "diesel": 4211,
+      "gasoline": 22,
+      "gas": 212,
+      "total": 4504
+    }
   },
   {
     "month": "2022-10",
-    "vp": 29300,
-    "vul": 6000,
-    "pl": 230,
-    "total": 35530
+    "vp": {
+      "electric": 18207,
+      "hybrid_rechargeable": 10041,
+      "hybrid": 19814,
+      "diesel": 22759,
+      "gasoline": 62652,
+      "gas": 402,
+      "total": 133875
+    },
+    "vul": {
+      "electric": 2350,
+      "hybrid_rechargeable": 276,
+      "hybrid": 864,
+      "diesel": 26613,
+      "gasoline": 4286,
+      "gas": 173,
+      "total": 34562
+    },
+    "pl": {
+      "electric": 49,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3845,
+      "gasoline": 21,
+      "gas": 193,
+      "total": 4112
+    }
   },
   {
     "month": "2022-11",
-    "vp": 33200,
-    "vul": 6800,
-    "pl": 260,
-    "total": 40260
+    "vp": {
+      "electric": 16473,
+      "hybrid_rechargeable": 9084,
+      "hybrid": 17926,
+      "diesel": 20591,
+      "gasoline": 56688,
+      "gas": 363,
+      "total": 121125
+    },
+    "vul": {
+      "electric": 2126,
+      "hybrid_rechargeable": 250,
+      "hybrid": 782,
+      "diesel": 24079,
+      "gasoline": 3878,
+      "gas": 156,
+      "total": 31271
+    },
+    "pl": {
+      "electric": 45,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3479,
+      "gasoline": 18,
+      "gas": 175,
+      "total": 3721
+    }
   },
   {
     "month": "2022-12",
-    "vp": 38500,
-    "vul": 7900,
-    "pl": 300,
-    "total": 46700
+    "vp": {
+      "electric": 25143,
+      "hybrid_rechargeable": 13866,
+      "hybrid": 27362,
+      "diesel": 31429,
+      "gasoline": 86520,
+      "gas": 555,
+      "total": 184875
+    },
+    "vul": {
+      "electric": 3246,
+      "hybrid_rechargeable": 382,
+      "hybrid": 1193,
+      "diesel": 36751,
+      "gasoline": 5918,
+      "gas": 239,
+      "total": 47729
+    },
+    "pl": {
+      "electric": 68,
+      "hybrid_rechargeable": 0,
+      "hybrid": 6,
+      "diesel": 5310,
+      "gasoline": 28,
+      "gas": 267,
+      "total": 5679
+    }
   },
   {
     "month": "2023-01",
-    "vp": 20200,
-    "vul": 4100,
-    "pl": 155,
-    "total": 24455
+    "vp": {
+      "electric": 18606,
+      "hybrid_rechargeable": 10189,
+      "hybrid": 18274,
+      "diesel": 14398,
+      "gasoline": 48951,
+      "gas": 332,
+      "total": 110750
+    },
+    "vul": {
+      "electric": 2178,
+      "hybrid_rechargeable": 256,
+      "hybrid": 769,
+      "diesel": 18962,
+      "gasoline": 3332,
+      "gas": 128,
+      "total": 25625
+    },
+    "pl": {
+      "electric": 55,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2789,
+      "gasoline": 14,
+      "gas": 170,
+      "total": 3031
+    }
   },
   {
     "month": "2023-02",
-    "vp": 22800,
-    "vul": 4700,
-    "pl": 180,
-    "total": 27680
+    "vp": {
+      "electric": 19846,
+      "hybrid_rechargeable": 10868,
+      "hybrid": 19492,
+      "diesel": 15357,
+      "gasoline": 52216,
+      "gas": 354,
+      "total": 118133
+    },
+    "vul": {
+      "electric": 2323,
+      "hybrid_rechargeable": 273,
+      "hybrid": 820,
+      "diesel": 20226,
+      "gasoline": 3554,
+      "gas": 137,
+      "total": 27333
+    },
+    "pl": {
+      "electric": 58,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 2974,
+      "gasoline": 17,
+      "gas": 181,
+      "total": 3233
+    }
   },
   {
     "month": "2023-03",
-    "vp": 29400,
-    "vul": 6000,
-    "pl": 230,
-    "total": 35630
+    "vp": {
+      "electric": 26048,
+      "hybrid_rechargeable": 14265,
+      "hybrid": 25583,
+      "diesel": 20156,
+      "gasoline": 68533,
+      "gas": 465,
+      "total": 155050
+    },
+    "vul": {
+      "electric": 3049,
+      "hybrid_rechargeable": 359,
+      "hybrid": 1076,
+      "diesel": 26548,
+      "gasoline": 4664,
+      "gas": 179,
+      "total": 35875
+    },
+    "pl": {
+      "electric": 76,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3904,
+      "gasoline": 22,
+      "gas": 238,
+      "total": 4244
+    }
   },
   {
     "month": "2023-04",
-    "vp": 24100,
-    "vul": 4900,
-    "pl": 190,
-    "total": 29190
+    "vp": {
+      "electric": 23568,
+      "hybrid_rechargeable": 12906,
+      "hybrid": 23147,
+      "diesel": 18237,
+      "gasoline": 62004,
+      "gas": 421,
+      "total": 140283
+    },
+    "vul": {
+      "electric": 2759,
+      "hybrid_rechargeable": 325,
+      "hybrid": 974,
+      "diesel": 24019,
+      "gasoline": 4219,
+      "gas": 162,
+      "total": 32458
+    },
+    "pl": {
+      "electric": 69,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3533,
+      "gasoline": 19,
+      "gas": 215,
+      "total": 3840
+    }
   },
   {
     "month": "2023-05",
-    "vp": 26700,
-    "vul": 5500,
-    "pl": 215,
-    "total": 32415
+    "vp": {
+      "electric": 26048,
+      "hybrid_rechargeable": 14265,
+      "hybrid": 25583,
+      "diesel": 20156,
+      "gasoline": 68533,
+      "gas": 465,
+      "total": 155050
+    },
+    "vul": {
+      "electric": 3049,
+      "hybrid_rechargeable": 359,
+      "hybrid": 1076,
+      "diesel": 26548,
+      "gasoline": 4664,
+      "gas": 179,
+      "total": 35875
+    },
+    "pl": {
+      "electric": 76,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3904,
+      "gasoline": 22,
+      "gas": 238,
+      "total": 4244
+    }
   },
   {
     "month": "2023-06",
-    "vp": 29300,
-    "vul": 6000,
-    "pl": 235,
-    "total": 35535
+    "vp": {
+      "electric": 27289,
+      "hybrid_rechargeable": 14944,
+      "hybrid": 26801,
+      "diesel": 21116,
+      "gasoline": 71796,
+      "gas": 487,
+      "total": 162433
+    },
+    "vul": {
+      "electric": 3195,
+      "hybrid_rechargeable": 376,
+      "hybrid": 1127,
+      "diesel": 27811,
+      "gasoline": 4886,
+      "gas": 188,
+      "total": 37583
+    },
+    "pl": {
+      "electric": 80,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 4090,
+      "gasoline": 23,
+      "gas": 249,
+      "total": 4446
+    }
   },
   {
     "month": "2023-07",
-    "vp": 31800,
-    "vul": 6500,
-    "pl": 255,
-    "total": 38555
+    "vp": {
+      "electric": 21087,
+      "hybrid_rechargeable": 11548,
+      "hybrid": 20710,
+      "diesel": 16317,
+      "gasoline": 55478,
+      "gas": 377,
+      "total": 125517
+    },
+    "vul": {
+      "electric": 2469,
+      "hybrid_rechargeable": 290,
+      "hybrid": 871,
+      "diesel": 21491,
+      "gasoline": 3776,
+      "gas": 145,
+      "total": 29042
+    },
+    "pl": {
+      "electric": 62,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3160,
+      "gasoline": 18,
+      "gas": 192,
+      "total": 3435
+    }
   },
   {
     "month": "2023-08",
-    "vp": 36200,
-    "vul": 7400,
-    "pl": 290,
-    "total": 43890
+    "vp": {
+      "electric": 21087,
+      "hybrid_rechargeable": 11548,
+      "hybrid": 20710,
+      "diesel": 16317,
+      "gasoline": 55478,
+      "gas": 377,
+      "total": 125517
+    },
+    "vul": {
+      "electric": 2469,
+      "hybrid_rechargeable": 290,
+      "hybrid": 871,
+      "diesel": 21491,
+      "gasoline": 3776,
+      "gas": 145,
+      "total": 29042
+    },
+    "pl": {
+      "electric": 62,
+      "hybrid_rechargeable": 0,
+      "hybrid": 3,
+      "diesel": 3160,
+      "gasoline": 18,
+      "gas": 192,
+      "total": 3435
+    }
   },
   {
     "month": "2023-09",
-    "vp": 38900,
-    "vul": 8000,
-    "pl": 315,
-    "total": 47215
+    "vp": {
+      "electric": 28529,
+      "hybrid_rechargeable": 15623,
+      "hybrid": 28020,
+      "diesel": 22076,
+      "gasoline": 75060,
+      "gas": 509,
+      "total": 169817
+    },
+    "vul": {
+      "electric": 3340,
+      "hybrid_rechargeable": 393,
+      "hybrid": 1179,
+      "diesel": 29076,
+      "gasoline": 5108,
+      "gas": 196,
+      "total": 39292
+    },
+    "pl": {
+      "electric": 84,
+      "hybrid_rechargeable": 0,
+      "hybrid": 5,
+      "diesel": 4276,
+      "gasoline": 23,
+      "gas": 260,
+      "total": 4648
+    }
   },
   {
     "month": "2023-10",
-    "vp": 33600,
-    "vul": 6900,
-    "pl": 270,
-    "total": 40770
+    "vp": {
+      "electric": 26048,
+      "hybrid_rechargeable": 14265,
+      "hybrid": 25583,
+      "diesel": 20156,
+      "gasoline": 68533,
+      "gas": 465,
+      "total": 155050
+    },
+    "vul": {
+      "electric": 3049,
+      "hybrid_rechargeable": 359,
+      "hybrid": 1076,
+      "diesel": 26548,
+      "gasoline": 4664,
+      "gas": 179,
+      "total": 35875
+    },
+    "pl": {
+      "electric": 76,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3904,
+      "gasoline": 22,
+      "gas": 238,
+      "total": 4244
+    }
   },
   {
     "month": "2023-11",
-    "vp": 39100,
-    "vul": 8000,
-    "pl": 310,
-    "total": 47410
+    "vp": {
+      "electric": 23568,
+      "hybrid_rechargeable": 12906,
+      "hybrid": 23147,
+      "diesel": 18237,
+      "gasoline": 62004,
+      "gas": 421,
+      "total": 140283
+    },
+    "vul": {
+      "electric": 2759,
+      "hybrid_rechargeable": 325,
+      "hybrid": 974,
+      "diesel": 24019,
+      "gasoline": 4219,
+      "gas": 162,
+      "total": 32458
+    },
+    "pl": {
+      "electric": 69,
+      "hybrid_rechargeable": 0,
+      "hybrid": 4,
+      "diesel": 3533,
+      "gasoline": 19,
+      "gas": 215,
+      "total": 3840
+    }
   },
   {
     "month": "2023-12",
-    "vp": 48700,
-    "vul": 9900,
-    "pl": 385,
-    "total": 58985
+    "vp": {
+      "electric": 35972,
+      "hybrid_rechargeable": 19699,
+      "hybrid": 35329,
+      "diesel": 27835,
+      "gasoline": 94640,
+      "gas": 642,
+      "total": 214117
+    },
+    "vul": {
+      "electric": 4211,
+      "hybrid_rechargeable": 495,
+      "hybrid": 1486,
+      "diesel": 36661,
+      "gasoline": 6441,
+      "gas": 248,
+      "total": 49542
+    },
+    "pl": {
+      "electric": 105,
+      "hybrid_rechargeable": 0,
+      "hybrid": 6,
+      "diesel": 5391,
+      "gasoline": 30,
+      "gas": 328,
+      "total": 5860
+    }
   },
   {
     "month": "2024-01",
-    "vp": 24100,
-    "vul": 4900,
-    "pl": 190,
-    "total": 29190
+    "vp": {
+      "electric": 23800,
+      "hybrid_rechargeable": 13096,
+      "hybrid": 20270,
+      "diesel": 11957,
+      "gasoline": 44410,
+      "gas": 342,
+      "total": 113875
+    },
+    "vul": {
+      "electric": 2789,
+      "hybrid_rechargeable": 398,
+      "hybrid": 930,
+      "diesel": 18726,
+      "gasoline": 3586,
+      "gas": 133,
+      "total": 26562
+    },
+    "pl": {
+      "electric": 78,
+      "hybrid_rechargeable": 0,
+      "hybrid": 6,
+      "diesel": 2828,
+      "gasoline": 16,
+      "gas": 197,
+      "total": 3125
+    }
   },
   {
     "month": "2024-02",
-    "vp": 26300,
-    "vul": 5400,
-    "pl": 210,
-    "total": 31910
+    "vp": {
+      "electric": 25387,
+      "hybrid_rechargeable": 13969,
+      "hybrid": 21621,
+      "diesel": 12754,
+      "gasoline": 47372,
+      "gas": 364,
+      "total": 121467
+    },
+    "vul": {
+      "electric": 2975,
+      "hybrid_rechargeable": 425,
+      "hybrid": 992,
+      "diesel": 19975,
+      "gasoline": 3824,
+      "gas": 142,
+      "total": 28333
+    },
+    "pl": {
+      "electric": 83,
+      "hybrid_rechargeable": 0,
+      "hybrid": 7,
+      "diesel": 3016,
+      "gasoline": 17,
+      "gas": 210,
+      "total": 3333
+    }
   },
   {
     "month": "2024-03",
-    "vp": 34200,
-    "vul": 7000,
-    "pl": 270,
-    "total": 41470
+    "vp": {
+      "electric": 33320,
+      "hybrid_rechargeable": 18334,
+      "hybrid": 28378,
+      "diesel": 16740,
+      "gasoline": 62175,
+      "gas": 478,
+      "total": 159425
+    },
+    "vul": {
+      "electric": 3905,
+      "hybrid_rechargeable": 558,
+      "hybrid": 1302,
+      "diesel": 26218,
+      "gasoline": 5019,
+      "gas": 186,
+      "total": 37188
+    },
+    "pl": {
+      "electric": 109,
+      "hybrid_rechargeable": 0,
+      "hybrid": 9,
+      "diesel": 3959,
+      "gasoline": 22,
+      "gas": 276,
+      "total": 4375
+    }
   },
   {
     "month": "2024-04",
-    "vp": 27900,
-    "vul": 5700,
-    "pl": 220,
-    "total": 33820
+    "vp": {
+      "electric": 30147,
+      "hybrid_rechargeable": 16588,
+      "hybrid": 25675,
+      "diesel": 15145,
+      "gasoline": 56254,
+      "gas": 433,
+      "total": 144242
+    },
+    "vul": {
+      "electric": 3533,
+      "hybrid_rechargeable": 505,
+      "hybrid": 1178,
+      "diesel": 23720,
+      "gasoline": 4542,
+      "gas": 168,
+      "total": 33646
+    },
+    "pl": {
+      "electric": 99,
+      "hybrid_rechargeable": 0,
+      "hybrid": 8,
+      "diesel": 3582,
+      "gasoline": 20,
+      "gas": 249,
+      "total": 3958
+    }
   },
   {
     "month": "2024-05",
-    "vp": 30100,
-    "vul": 6200,
-    "pl": 245,
-    "total": 36545
+    "vp": {
+      "electric": 33320,
+      "hybrid_rechargeable": 18334,
+      "hybrid": 28378,
+      "diesel": 16740,
+      "gasoline": 62175,
+      "gas": 478,
+      "total": 159425
+    },
+    "vul": {
+      "electric": 3905,
+      "hybrid_rechargeable": 558,
+      "hybrid": 1302,
+      "diesel": 26218,
+      "gasoline": 5019,
+      "gas": 186,
+      "total": 37188
+    },
+    "pl": {
+      "electric": 109,
+      "hybrid_rechargeable": 0,
+      "hybrid": 9,
+      "diesel": 3959,
+      "gasoline": 22,
+      "gas": 276,
+      "total": 4375
+    }
   },
   {
     "month": "2024-06",
-    "vp": 33800,
-    "vul": 6900,
-    "pl": 275,
-    "total": 40975
+    "vp": {
+      "electric": 34907,
+      "hybrid_rechargeable": 19207,
+      "hybrid": 29729,
+      "diesel": 17537,
+      "gasoline": 65136,
+      "gas": 501,
+      "total": 167017
+    },
+    "vul": {
+      "electric": 4091,
+      "hybrid_rechargeable": 584,
+      "hybrid": 1364,
+      "diesel": 27465,
+      "gasoline": 5259,
+      "gas": 195,
+      "total": 38958
+    },
+    "pl": {
+      "electric": 115,
+      "hybrid_rechargeable": 0,
+      "hybrid": 9,
+      "diesel": 4148,
+      "gasoline": 22,
+      "gas": 289,
+      "total": 4583
+    }
   },
   {
     "month": "2024-07",
-    "vp": 36200,
-    "vul": 7400,
-    "pl": 295,
-    "total": 43895
+    "vp": {
+      "electric": 26973,
+      "hybrid_rechargeable": 14842,
+      "hybrid": 22972,
+      "diesel": 13551,
+      "gasoline": 50333,
+      "gas": 387,
+      "total": 129058
+    },
+    "vul": {
+      "electric": 3161,
+      "hybrid_rechargeable": 452,
+      "hybrid": 1054,
+      "diesel": 21223,
+      "gasoline": 4063,
+      "gas": 151,
+      "total": 30104
+    },
+    "pl": {
+      "electric": 89,
+      "hybrid_rechargeable": 0,
+      "hybrid": 7,
+      "diesel": 3206,
+      "gasoline": 17,
+      "gas": 223,
+      "total": 3542
+    }
   },
   {
     "month": "2024-08",
-    "vp": 41500,
-    "vul": 8500,
-    "pl": 335,
-    "total": 50335
+    "vp": {
+      "electric": 26973,
+      "hybrid_rechargeable": 14842,
+      "hybrid": 22972,
+      "diesel": 13551,
+      "gasoline": 50333,
+      "gas": 387,
+      "total": 129058
+    },
+    "vul": {
+      "electric": 3161,
+      "hybrid_rechargeable": 452,
+      "hybrid": 1054,
+      "diesel": 21223,
+      "gasoline": 4063,
+      "gas": 151,
+      "total": 30104
+    },
+    "pl": {
+      "electric": 89,
+      "hybrid_rechargeable": 0,
+      "hybrid": 7,
+      "diesel": 3206,
+      "gasoline": 17,
+      "gas": 223,
+      "total": 3542
+    }
   },
   {
     "month": "2024-09",
-    "vp": 45300,
-    "vul": 9300,
-    "pl": 370,
-    "total": 54970
+    "vp": {
+      "electric": 36493,
+      "hybrid_rechargeable": 20080,
+      "hybrid": 31080,
+      "diesel": 18334,
+      "gasoline": 68097,
+      "gas": 524,
+      "total": 174608
+    },
+    "vul": {
+      "electric": 4277,
+      "hybrid_rechargeable": 611,
+      "hybrid": 1426,
+      "diesel": 28714,
+      "gasoline": 5497,
+      "gas": 204,
+      "total": 40729
+    },
+    "pl": {
+      "electric": 120,
+      "hybrid_rechargeable": 0,
+      "hybrid": 10,
+      "diesel": 4337,
+      "gasoline": 23,
+      "gas": 302,
+      "total": 4792
+    }
   },
   {
     "month": "2024-10",
-    "vp": 39800,
-    "vul": 8200,
-    "pl": 320,
-    "total": 48320
+    "vp": {
+      "electric": 33320,
+      "hybrid_rechargeable": 18334,
+      "hybrid": 28378,
+      "diesel": 16740,
+      "gasoline": 62175,
+      "gas": 478,
+      "total": 159425
+    },
+    "vul": {
+      "electric": 3905,
+      "hybrid_rechargeable": 558,
+      "hybrid": 1302,
+      "diesel": 26218,
+      "gasoline": 5019,
+      "gas": 186,
+      "total": 37188
+    },
+    "pl": {
+      "electric": 109,
+      "hybrid_rechargeable": 0,
+      "hybrid": 9,
+      "diesel": 3959,
+      "gasoline": 22,
+      "gas": 276,
+      "total": 4375
+    }
   },
   {
     "month": "2024-11",
-    "vp": 46200,
-    "vul": 9500,
-    "pl": 375,
-    "total": 56075
+    "vp": {
+      "electric": 30147,
+      "hybrid_rechargeable": 16588,
+      "hybrid": 25675,
+      "diesel": 15145,
+      "gasoline": 56254,
+      "gas": 433,
+      "total": 144242
+    },
+    "vul": {
+      "electric": 3533,
+      "hybrid_rechargeable": 505,
+      "hybrid": 1178,
+      "diesel": 23720,
+      "gasoline": 4542,
+      "gas": 168,
+      "total": 33646
+    },
+    "pl": {
+      "electric": 99,
+      "hybrid_rechargeable": 0,
+      "hybrid": 8,
+      "diesel": 3582,
+      "gasoline": 20,
+      "gas": 249,
+      "total": 3958
+    }
   },
   {
     "month": "2024-12",
-    "vp": 57800,
-    "vul": 11800,
-    "pl": 460,
-    "total": 70060
+    "vp": {
+      "electric": 46013,
+      "hybrid_rechargeable": 25318,
+      "hybrid": 39188,
+      "diesel": 23117,
+      "gasoline": 85862,
+      "gas": 660,
+      "total": 220158
+    },
+    "vul": {
+      "electric": 5392,
+      "hybrid_rechargeable": 770,
+      "hybrid": 1797,
+      "diesel": 36205,
+      "gasoline": 6933,
+      "gas": 257,
+      "total": 51354
+    },
+    "pl": {
+      "electric": 151,
+      "hybrid_rechargeable": 0,
+      "hybrid": 12,
+      "diesel": 5468,
+      "gasoline": 30,
+      "gas": 381,
+      "total": 6042
+    }
   }
 ]

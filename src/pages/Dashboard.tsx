@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useData } from '../hooks/useData'
-import type { MonthlyRegistration, ChargingPointHistory, ChargingByPower } from '../types'
+import type { MonthlyRegistration, ChargingPointHistory, ChargingByPower, AnnualRegistration } from '../types'
 import KPICard from '../components/KPICard'
 import ChartCard from '../components/ChartCard'
 import LoadingSpinner from '../components/LoadingSpinner'
@@ -10,28 +10,36 @@ import ChargingByPowerChart from '../charts/ChargingByPowerChart'
 
 export default function Dashboard() {
   const { t } = useTranslation()
-  const { data: regData, loading: l1 } = useData<MonthlyRegistration[]>('registrations_monthly.json')
-  const { data: chargingData, loading: l2 } = useData<ChargingPointHistory[]>('charging_points_history.json')
-  const { data: powerData, loading: l3 } = useData<ChargingByPower[]>('charging_by_power.json')
+  const { data: monthly, loading: l1 } = useData<MonthlyRegistration[]>('registrations_monthly.json')
+  const { data: annual, loading: l2 } = useData<AnnualRegistration[]>('registrations_annual.json')
+  const { data: chargingData, loading: l3 } = useData<ChargingPointHistory[]>('charging_points_history.json')
+  const { data: powerData, loading: l4 } = useData<ChargingByPower[]>('charging_by_power.json')
 
-  if (l1 || l2 || l3) return <LoadingSpinner />
+  if (l1 || l2 || l3 || l4) return <LoadingSpinner />
 
-  const totalVE = regData ? regData.reduce((s, d) => s + d.vp + d.vul + d.pl, 0) : 0
-  const lastMonth = regData?.[regData.length - 1]
-  const prevYearMonth = regData?.[regData.length - 13]
-  const yoyGrowth = lastMonth && prevYearMonth
-    ? ((lastMonth.total - prevYearMonth.total) / prevYearMonth.total) * 100 : 0
+  // Total VE immatriculés (VP+VUL+PL électriques, cumul 2015–2024)
+  const totalVE = monthly
+    ? monthly.reduce((s, d) => s + d.vp.electric + d.vul.electric + d.pl.electric, 0)
+    : 0
+
+  // YoY growth VP électrique
+  const lastYear = annual?.[annual.length - 1]
+  const prevYear = annual?.[annual.length - 2]
+  const yoyGrowth = lastYear && prevYear
+    ? ((lastYear.vp.electric - prevYear.vp.electric) / prevYear.vp.electric) * 100
+    : 0
 
   const latestCharging = chargingData?.[chargingData.length - 1]
   const prevYearCharging = chargingData?.[chargingData.length - 13]
   const chargingGrowth = latestCharging && prevYearCharging
-    ? ((latestCharging.public - prevYearCharging.public) / prevYearCharging.public) * 100 : 0
+    ? ((latestCharging.public - prevYearCharging.public) / prevYearCharging.public) * 100
+    : 0
 
-  const last12 = regData ? regData.slice(-12) : []
+  const evShare = lastYear?.vp.ev_share ?? 0
+  const last12 = monthly ? monthly.slice(-12) : []
 
   return (
     <div>
-      {/* Page header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('dashboard.title')}
@@ -41,7 +49,6 @@ export default function Dashboard() {
         </p>
       </div>
 
-      {/* KPI Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <KPICard
           title={t('dashboard.kpi.totalVE')}
@@ -52,9 +59,9 @@ export default function Dashboard() {
         />
         <KPICard
           title={t('dashboard.kpi.marketShare')}
-          value="20,9 %"
+          value={`${evShare} %`}
           description={t('dashboard.kpi.marketShare_desc')}
-          trend={3.1}
+          trend={evShare - (prevYear?.vp.ev_share ?? 0)}
           icon={<IconChart size={20} />}
         />
         <KPICard
@@ -73,12 +80,11 @@ export default function Dashboard() {
         />
       </div>
 
-      {/* Charts */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2">
           <ChartCard title={t('dashboard.recentTrend')} source="SDES">
             {last12.length > 0 && (
-              <RegistrationsLineChart data={last12} vehicleType="all" />
+              <RegistrationsLineChart data={last12} vehicleType="vp" />
             )}
           </ChartCard>
         </div>
