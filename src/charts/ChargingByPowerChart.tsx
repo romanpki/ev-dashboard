@@ -4,11 +4,12 @@ import type { ChargingByPower } from '../types'
 interface Props {
   data: ChargingByPower[]
   mini?: boolean
+  height?: number
 }
 
 const COLORS = ['#25106B', '#451DC7', '#6B4CE6', '#C2A5FF', '#E0D8FF']
 
-export default function ChargingByPowerChart({ data, mini = false }: Props) {
+export default function ChargingByPowerChart({ data, mini = false, height }: Props) {
   const option = {
     color: COLORS,
     tooltip: {
@@ -62,5 +63,5 @@ export default function ChargingByPowerChart({ data, mini = false }: Props) {
     ],
   }
 
-  return <ReactECharts option={option} style={{ height: mini ? 220 : 280 }} />
+  return <ReactECharts option={option} style={{ height: height ?? (mini ? 220 : 280) }} />
 }

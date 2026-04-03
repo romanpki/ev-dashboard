@@ -5,9 +5,10 @@ import type { ChargingPointHistory } from '../types'
 interface Props {
   data: ChargingPointHistory[]
   access: 'all' | 'public' | 'private'
+  height?: number
 }
 
-export default function ChargingPointsLineChart({ data, access }: Props) {
+export default function ChargingPointsLineChart({ data, access, height = 300 }: Props) {
   const { t } = useTranslation()
 
   const labels = data.map((d) => d.month)
@@ -96,5 +97,5 @@ export default function ChargingPointsLineChart({ data, access }: Props) {
     })),
   }
 
-  return <ReactECharts option={option} style={{ height: 300 }} />
+  return <ReactECharts option={option} style={{ height }} />
 }

@@ -24,7 +24,7 @@ export default function KPICard({ title, value, description, trend, icon, highli
 
   return (
     <div
-      className="rounded-xl p-6 flex flex-col gap-5"
+      className="rounded-xl px-8 py-6 flex items-start gap-5"
       style={{
         background: bg,
         border: highlighted ? 'none' : '1px solid var(--ws-gray-200)',
@@ -33,34 +33,34 @@ export default function KPICard({ title, value, description, trend, icon, highli
           : '0 1px 3px rgba(0,0,0,0.04)',
       }}
     >
-      {/* Top row: icon + trend */}
-      <div className="flex items-center justify-between">
-        <div
-          className="w-10 h-10 rounded-lg flex items-center justify-center"
-          style={{ background: iconBg, color: iconColor }}
-        >
-          {icon}
-        </div>
-        {trend !== undefined && (
-          <span
-            className="text-xs font-semibold px-2 py-1 rounded-full flex items-center gap-1"
-            style={{ background: trendBg, color: trendColor }}
-          >
-            {trendPositive ? '↑' : '↓'} {Math.abs(trend).toFixed(1)}%
-          </span>
-        )}
+      {/* Icon */}
+      <div
+        className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+        style={{ background: iconBg, color: iconColor }}
+      >
+        {icon}
       </div>
 
       {/* Value + labels */}
-      <div>
-        <div className="text-3xl font-bold tracking-tight" style={{ color: textPrimary }}>
+      <div className="flex-1 min-w-0">
+        <div className="text-4xl font-bold tracking-tight leading-none" style={{ color: textPrimary }}>
           {value}
         </div>
-        <div className="text-sm font-semibold mt-1.5" style={{ color: textPrimary }}>
+        <div className="text-sm font-semibold mt-2" style={{ color: textPrimary }}>
           {title}
         </div>
-        <div className="text-xs mt-0.5" style={{ color: textSecondary }}>
-          {description}
+        <div className="flex items-center justify-between gap-2 mt-1">
+          <span className="text-xs" style={{ color: textSecondary }}>
+            {description}
+          </span>
+          {trend !== undefined && (
+            <span
+              className="text-sm font-semibold px-2.5 py-1 rounded-full flex items-center gap-1 flex-shrink-0"
+              style={{ background: trendBg, color: trendColor }}
+            >
+              {trendPositive ? '↑' : '↓'} {Math.abs(trend).toFixed(1)}%
+            </span>
+          )}
         </div>
       </div>
     </div>

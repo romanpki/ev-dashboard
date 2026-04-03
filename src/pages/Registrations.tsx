@@ -53,7 +53,7 @@ export default function Registrations() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
+        <h1 className="text-4xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('registrations.title')}
         </h1>
         <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
@@ -102,7 +102,7 @@ export default function Registrations() {
           source="SDES"
         >
           {filteredMonthly.length > 0 && (
-            <RegistrationsLineChart data={filteredMonthly} vehicleType={vehicleType} />
+            <RegistrationsLineChart data={filteredMonthly} vehicleType={vehicleType} height={440} />
           )}
         </ChartCard>
 
@@ -113,7 +113,7 @@ export default function Registrations() {
             description={t('registrations.charts.marketShare_desc')}
             source="SDES"
           >
-            {annual && <MarketShareBarChart data={annual} vehicleType={vt} />}
+            {annual && <MarketShareBarChart data={annual} vehicleType={vt} height={360} />}
           </ChartCard>
 
           {/* Energy breakdown pie — filtered by vehicle type */}
@@ -122,7 +122,7 @@ export default function Registrations() {
             description="Cumul 2015–2024"
             source="SDES"
           >
-            {monthly && <EnergyBreakdownPieChart data={monthly} vehicleType={vt} />}
+            {monthly && <EnergyBreakdownPieChart data={monthly} vehicleType={vt} height={360} />}
           </ChartCard>
         </div>
       </div>

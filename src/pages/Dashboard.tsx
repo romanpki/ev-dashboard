@@ -7,6 +7,7 @@ import LoadingSpinner from '../components/LoadingSpinner'
 import { IconCar, IconChart, IconBolt, IconTrend } from '../components/Icons'
 import RegistrationsLineChart from '../charts/RegistrationsLineChart'
 import ChargingByPowerChart from '../charts/ChargingByPowerChart'
+import MarketShareBarChart from '../charts/MarketShareBarChart'
 
 export default function Dashboard() {
   const { t } = useTranslation()
@@ -41,7 +42,7 @@ export default function Dashboard() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
+        <h1 className="text-4xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('dashboard.title')}
         </h1>
         <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
@@ -49,12 +50,12 @@ export default function Dashboard() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-4 gap-5 mb-10">
         <KPICard
           title={t('dashboard.kpi.totalVE')}
           value={totalVE.toLocaleString('fr-FR')}
           description={t('dashboard.kpi.totalVE_desc')}
-          icon={<IconCar size={20} />}
+          icon={<IconCar size={22} />}
           highlighted
         />
         <KPICard
@@ -62,37 +63,37 @@ export default function Dashboard() {
           value={`${evShare} %`}
           description={t('dashboard.kpi.marketShare_desc')}
           trend={evShare - (prevYear?.vp.ev_share ?? 0)}
-          icon={<IconChart size={20} />}
+          icon={<IconChart size={22} />}
         />
         <KPICard
           title={t('dashboard.kpi.chargingPoints')}
           value={latestCharging ? latestCharging.public.toLocaleString('fr-FR') : '—'}
           description={t('dashboard.kpi.chargingPoints_desc')}
           trend={chargingGrowth}
-          icon={<IconBolt size={20} />}
+          icon={<IconBolt size={22} />}
         />
         <KPICard
           title={t('dashboard.kpi.yoyGrowth')}
           value={`+${yoyGrowth.toFixed(1)} %`}
           description={t('dashboard.kpi.yoyGrowth_desc')}
           trend={yoyGrowth}
-          icon={<IconTrend size={20} />}
+          icon={<IconTrend size={22} />}
         />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2">
-          <ChartCard title={t('dashboard.recentTrend')} source="SDES">
-            {last12.length > 0 && (
-              <RegistrationsLineChart data={last12} vehicleType="vp" />
-            )}
-          </ChartCard>
-        </div>
-        <div>
-          <ChartCard title={t('dashboard.chargingByPower')} source="IRVE — data.gouv.fr">
-            {powerData && <ChargingByPowerChart data={powerData} mini />}
-          </ChartCard>
-        </div>
+      <ChartCard title={t('dashboard.recentTrend')} source="SDES" className="w-full mb-6">
+        {last12.length > 0 && (
+          <RegistrationsLineChart data={last12} vehicleType="vp" height={420} />
+        )}
+      </ChartCard>
+
+      <div className="grid grid-cols-2 gap-6">
+        <ChartCard title={t('dashboard.chargingByPower')} source="IRVE — data.gouv.fr">
+          {powerData && <ChargingByPowerChart data={powerData} height={360} />}
+        </ChartCard>
+        <ChartCard title="Parts de marché VP — 2015–2024" source="SDES">
+          {annual && <MarketShareBarChart data={annual} vehicleType="vp" height={360} />}
+        </ChartCard>
       </div>
     </div>
   )

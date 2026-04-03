@@ -30,7 +30,7 @@ export default function Charging() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
+        <h1 className="text-4xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('charging.title')}
         </h1>
         <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
@@ -65,7 +65,7 @@ export default function Charging() {
           description={t('charging.charts.history_desc')}
           source="AVERE-France / IRVE data.gouv.fr"
         >
-          {history && <ChargingPointsLineChart data={history} access={access} />}
+          {history && <ChargingPointsLineChart data={history} access={access} height={440} />}
         </ChartCard>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -74,7 +74,7 @@ export default function Charging() {
             description={t('charging.charts.byPower_desc')}
             source="IRVE — data.gouv.fr"
           >
-            {byPower && <ChargingByPowerChart data={byPower} />}
+            {byPower && <ChargingByPowerChart data={byPower} height={360} />}
           </ChartCard>
 
           <ChartCard
@@ -82,7 +82,7 @@ export default function Charging() {
             description={t('charging.charts.topOperators_desc')}
             source="IRVE — data.gouv.fr"
           >
-            {byOperator && <ChargingByOperatorChart data={byOperator} />}
+            {byOperator && <ChargingByOperatorChart data={byOperator} height={360} />}
           </ChartCard>
         </div>
       </div>

@@ -8,7 +8,7 @@
   --ws-dark: #25106B;
   --ws-charcoal: #191A1C;
   --ws-white: #FFFFFF;
-  --ws-gray-50: #FAFAFA;
+  --ws-gray-50: #F7F6FC;
   --ws-gray-100: #F4F2FB;
   --ws-gray-200: #E8E5F0;
   --ws-gray-400: #9CA3AF;
@@ -16,6 +16,8 @@
   --ws-success: #10B981;
   --ws-danger: #EF4444;
   --ws-border-radius: 12px;
+  --ws-sidebar-bg: #FFFFFF;
+  --ws-sidebar-active: #F0ECFF;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
