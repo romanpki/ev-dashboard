@@ -1,0 +1,290 @@
+[
+  {
+    "month": "2021-01",
+    "public": 42000,
+    "private": 14699,
+    "total": 56699
+  },
+  {
+    "month": "2021-02",
+    "public": 44000,
+    "private": 15399,
+    "total": 59399
+  },
+  {
+    "month": "2021-03",
+    "public": 46500,
+    "private": 16274,
+    "total": 62774
+  },
+  {
+    "month": "2021-04",
+    "public": 48000,
+    "private": 16800,
+    "total": 64800
+  },
+  {
+    "month": "2021-05",
+    "public": 50000,
+    "private": 17500,
+    "total": 67500
+  },
+  {
+    "month": "2021-06",
+    "public": 52000,
+    "private": 18200,
+    "total": 70200
+  },
+  {
+    "month": "2021-07",
+    "public": 54000,
+    "private": 18900,
+    "total": 72900
+  },
+  {
+    "month": "2021-08",
+    "public": 56500,
+    "private": 19775,
+    "total": 76275
+  },
+  {
+    "month": "2021-09",
+    "public": 59000,
+    "private": 20650,
+    "total": 79650
+  },
+  {
+    "month": "2021-10",
+    "public": 61500,
+    "private": 21525,
+    "total": 83025
+  },
+  {
+    "month": "2021-11",
+    "public": 64000,
+    "private": 22400,
+    "total": 86400
+  },
+  {
+    "month": "2021-12",
+    "public": 67000,
+    "private": 23450,
+    "total": 90450
+  },
+  {
+    "month": "2022-01",
+    "public": 69000,
+    "private": 24150,
+    "total": 93150
+  },
+  {
+    "month": "2022-02",
+    "public": 71500,
+    "private": 25025,
+    "total": 96525
+  },
+  {
+    "month": "2022-03",
+    "public": 74000,
+    "private": 25900,
+    "total": 99900
+  },
+  {
+    "month": "2022-04",
+    "public": 76500,
+    "private": 26775,
+    "total": 103275
+  },
+  {
+    "month": "2022-05",
+    "public": 79000,
+    "private": 27650,
+    "total": 106650
+  },
+  {
+    "month": "2022-06",
+    "public": 82000,
+    "private": 28699,
+    "total": 110699
+  },
+  {
+    "month": "2022-07",
+    "public": 85000,
+    "private": 29749,
+    "total": 114749
+  },
+  {
+    "month": "2022-08",
+    "public": 88000,
+    "private": 30799,
+    "total": 118799
+  },
+  {
+    "month": "2022-09",
+    "public": 91500,
+    "private": 32024,
+    "total": 123524
+  },
+  {
+    "month": "2022-10",
+    "public": 94500,
+    "private": 33075,
+    "total": 127575
+  },
+  {
+    "month": "2022-11",
+    "public": 98000,
+    "private": 34300,
+    "total": 132300
+  },
+  {
+    "month": "2022-12",
+    "public": 102000,
+    "private": 35700,
+    "total": 137700
+  },
+  {
+    "month": "2023-01",
+    "public": 105000,
+    "private": 36750,
+    "total": 141750
+  },
+  {
+    "month": "2023-02",
+    "public": 108000,
+    "private": 37800,
+    "total": 145800
+  },
+  {
+    "month": "2023-03",
+    "public": 111000,
+    "private": 38850,
+    "total": 149850
+  },
+  {
+    "month": "2023-04",
+    "public": 114000,
+    "private": 39900,
+    "total": 153900
+  },
+  {
+    "month": "2023-05",
+    "public": 117000,
+    "private": 40950,
+    "total": 157950
+  },
+  {
+    "month": "2023-06",
+    "public": 120000,
+    "private": 42000,
+    "total": 162000
+  },
+  {
+    "month": "2023-07",
+    "public": 122500,
+    "private": 42875,
+    "total": 165375
+  },
+  {
+    "month": "2023-08",
+    "public": 124500,
+    "private": 43575,
+    "total": 168075
+  },
+  {
+    "month": "2023-09",
+    "public": 126500,
+    "private": 44275,
+    "total": 170775
+  },
+  {
+    "month": "2023-10",
+    "public": 128000,
+    "private": 44800,
+    "total": 172800
+  },
+  {
+    "month": "2023-11",
+    "public": 129500,
+    "private": 45325,
+    "total": 174825
+  },
+  {
+    "month": "2023-12",
+    "public": 130500,
+    "private": 45675,
+    "total": 176175
+  },
+  {
+    "month": "2024-01",
+    "public": 131500,
+    "private": 46025,
+    "total": 177525
+  },
+  {
+    "month": "2024-02",
+    "public": 132500,
+    "private": 46375,
+    "total": 178875
+  },
+  {
+    "month": "2024-03",
+    "public": 133800,
+    "private": 46830,
+    "total": 180630
+  },
+  {
+    "month": "2024-04",
+    "public": 135200,
+    "private": 47320,
+    "total": 182520
+  },
+  {
+    "month": "2024-05",
+    "public": 136800,
+    "private": 47880,
+    "total": 184680
+  },
+  {
+    "month": "2024-06",
+    "public": 138200,
+    "private": 48370,
+    "total": 186570
+  },
+  {
+    "month": "2024-07",
+    "public": 139500,
+    "private": 48825,
+    "total": 188325
+  },
+  {
+    "month": "2024-08",
+    "public": 141000,
+    "private": 49350,
+    "total": 190350
+  },
+  {
+    "month": "2024-09",
+    "public": 143000,
+    "private": 50050,
+    "total": 193050
+  },
+  {
+    "month": "2024-10",
+    "public": 145500,
+    "private": 50925,
+    "total": 196425
+  },
+  {
+    "month": "2024-11",
+    "public": 148000,
+    "private": 51800,
+    "total": 199800
+  },
+  {
+    "month": "2024-12",
+    "public": 151000,
+    "private": 52850,
+    "total": 203850
+  }
+]

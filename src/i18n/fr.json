@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "EV Dashboard",
+    "subtitle": "Électrification du transport en France",
+    "description": "Tableau de bord public sur l'électrification du transport en France"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "registrations": "Immatriculations",
+    "charging": "Recharge",
+    "map": "Carte"
+  },
+  "dashboard": {
+    "title": "Vue d'ensemble",
+    "subtitle": "Indicateurs clés de l'électrification du transport en France",
+    "kpi": {
+      "totalVE": "Véhicules électriques immatriculés",
+      "totalVE_desc": "Cumul depuis 2020",
+      "marketShare": "Part de marché VE",
+      "marketShare_desc": "Véhicules particuliers neufs",
+      "chargingPoints": "Points de recharge publics",
+      "chargingPoints_desc": "Bornes accessibles au public",
+      "yoyGrowth": "Croissance annuelle",
+      "yoyGrowth_desc": "Ventes VE vs année précédente"
+    },
+    "recentTrend": "Tendance ventes (12 derniers mois)",
+    "chargingByPower": "PDC par puissance"
+  },
+  "registrations": {
+    "title": "Immatriculations de véhicules électriques",
+    "subtitle": "Évolution des ventes de véhicules 100% électriques en France",
+    "filters": {
+      "vehicleType": "Type de véhicule",
+      "period": "Période",
+      "all": "Tous",
+      "vp": "Véhicules particuliers",
+      "vul": "Utilitaires légers",
+      "pl": "Poids lourds"
+    },
+    "charts": {
+      "monthly": "Immatriculations mensuelles",
+      "monthly_desc": "Nombre de véhicules 100% électriques immatriculés par mois",
+      "marketShare": "Parts de marché annuelles",
+      "marketShare_desc": "Répartition électrique / hybride / thermique",
+      "byType": "Répartition par type"
+    }
+  },
+  "charging": {
+    "title": "Infrastructure de recharge",
+    "subtitle": "Déploiement des points de charge en France",
+    "filters": {
+      "access": "Accès",
+      "power": "Puissance",
+      "operator": "Opérateur",
+      "all": "Tous",
+      "public": "Public",
+      "private": "Privé",
+      "slow": "≤22 kW",
+      "fast": "22–150 kW",
+      "ultrafast": ">150 kW"
+    },
+    "charts": {
+      "history": "Évolution du nombre de PDC",
+      "history_desc": "Points de charge publics déployés en France",
+      "byPower": "Répartition par puissance",
+      "byPower_desc": "Nombre de PDC par tranche de puissance",
+      "topOperators": "Top opérateurs",
+      "topOperators_desc": "Principaux opérateurs de recharge"
+    }
+  },
+  "map": {
+    "title": "Carte de France",
+    "subtitle": "Données par région",
+    "toggle": {
+      "registrations": "Immatriculations VE",
+      "charging": "Points de recharge"
+    },
+    "tooltip": {
+      "registrations": "immatriculations VE",
+      "charging": "points de recharge"
+    }
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Erreur de chargement des données",
+    "noData": "Aucune donnée disponible",
+    "source": "Source",
+    "lastUpdate": "Dernière mise à jour",
+    "units": {
+      "vehicles": "véhicules",
+      "points": "points de charge",
+      "percent": "%",
+      "kw": "kW"
+    },
+    "months": ["Jan", "Fév", "Mar", "Avr", "Mai", "Jun", "Jul", "Aoû", "Sep", "Oct", "Nov", "Déc"]
+  },
+  "footer": {
+    "sources": "Sources",
+    "sourcesList": "SDES, AVERE-France, IRVE (data.gouv.fr), AAAdata, INSEE",
+    "license": "Données ouvertes — Licence Ouverte v2.0",
+    "updatedMonthly": "Mise à jour mensuelle",
+    "madeBy": "Réalisé par"
+  }
+}

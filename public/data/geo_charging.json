@@ -1,0 +1,80 @@
+[
+  {
+    "region": "Île-de-France",
+    "code": "11",
+    "count": 29000,
+    "per_1000_inhabitants": 23.3
+  },
+  {
+    "region": "Auvergne-Rhône-Alpes",
+    "code": "84",
+    "count": 16500,
+    "per_1000_inhabitants": 21.0
+  },
+  {
+    "region": "Nouvelle-Aquitaine",
+    "code": "75",
+    "count": 12500,
+    "per_1000_inhabitants": 21.1
+  },
+  {
+    "region": "Occitanie",
+    "code": "76",
+    "count": 10200,
+    "per_1000_inhabitants": 19.7
+  },
+  {
+    "region": "Hauts-de-France",
+    "code": "32",
+    "count": 9800,
+    "per_1000_inhabitants": 19.1
+  },
+  {
+    "region": "Provence-Alpes-Côte d'Azur",
+    "code": "93",
+    "count": 10500,
+    "per_1000_inhabitants": 21.0
+  },
+  {
+    "region": "Grand Est",
+    "code": "44",
+    "count": 8800,
+    "per_1000_inhabitants": 18.1
+  },
+  {
+    "region": "Pays de la Loire",
+    "code": "52",
+    "count": 7200,
+    "per_1000_inhabitants": 19.2
+  },
+  {
+    "region": "Bretagne",
+    "code": "53",
+    "count": 6200,
+    "per_1000_inhabitants": 18.6
+  },
+  {
+    "region": "Normandie",
+    "code": "28",
+    "count": 5800,
+    "per_1000_inhabitants": 17.4
+  },
+  {
+    "region": "Bourgogne-Franche-Comté",
+    "code": "27",
+    "count": 4800,
+    "per_1000_inhabitants": 17.4
+  },
+  {
+    "region": "Centre-Val de Loire",
+    "code": "24",
+    "count": 4500,
+    "per_1000_inhabitants": 17.6
+  },
+  {
+    "region": "Corse",
+    "code": "94",
+    "count": 900,
+    "per_1000_inhabitants": 27.6
+  }
+]

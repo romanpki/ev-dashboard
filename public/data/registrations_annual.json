@@ -1,0 +1,50 @@
+[
+  {
+    "year": 2019,
+    "electric": 40768,
+    "hybrid": 116775,
+    "thermal": 1928756,
+    "total": 2201000,
+    "ev_share": 1.9
+  },
+  {
+    "year": 2020,
+    "electric": 110921,
+    "hybrid": 186688,
+    "thermal": 1617000,
+    "total": 1650000,
+    "ev_share": 6.7
+  },
+  {
+    "year": 2021,
+    "electric": 163000,
+    "hybrid": 235000,
+    "thermal": 1474000,
+    "total": 1660000,
+    "ev_share": 9.8
+  },
+  {
+    "year": 2022,
+    "electric": 208000,
+    "hybrid": 315000,
+    "thermal": 1370000,
+    "total": 1530000,
+    "ev_share": 13.6
+  },
+  {
+    "year": 2023,
+    "electric": 296000,
+    "hybrid": 352000,
+    "thermal": 1283000,
+    "total": 1772000,
+    "ev_share": 16.8
+  },
+  {
+    "year": 2024,
+    "electric": 381000,
+    "hybrid": 415000,
+    "thermal": 1186000,
+    "total": 1822000,
+    "ev_share": 20.9
+  }
+]
