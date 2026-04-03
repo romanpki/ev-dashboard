@@ -21,15 +21,27 @@ export default function Charging() {
 
   if (l1 || l2 || l3) return <LoadingSpinner />
 
+  const latest = history?.[history.length - 1]
+  const oldest = history?.[0]
+  const growthTotal = latest && oldest
+    ? ((latest.public - oldest.public) / oldest.public * 100).toFixed(0)
+    : null
+
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--ws-charcoal)' }}>
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('charging.title')}
         </h1>
-        <p className="mt-1 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
+        <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
           {t('charging.subtitle')}
         </p>
+        {growthTotal && latest && (
+          <p className="mt-2 text-sm font-medium" style={{ color: 'var(--ws-success)' }}>
+            ↑ {growthTotal}% de PDC publics depuis {oldest?.month.slice(0, 4)} —{' '}
+            {latest.public.toLocaleString('fr-FR')} points fin {latest.month.slice(0, 4)}
+          </p>
+        )}
       </div>
 
       <FilterBar
@@ -47,7 +59,7 @@ export default function Charging() {
         ]}
       />
 
-      <div className="grid grid-cols-1 gap-6">
+      <div className="flex flex-col gap-6">
         <ChartCard
           title={t('charging.charts.history')}
           description={t('charging.charts.history_desc')}
