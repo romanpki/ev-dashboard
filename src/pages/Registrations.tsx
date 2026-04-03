@@ -30,15 +30,27 @@ export default function Registrations() {
     return monthly
   })()
 
+  // Stats summary
+  const lastYear = annual?.[annual.length - 1]
+  const prevYear = annual?.[annual.length - 2]
+  const growth = lastYear && prevYear
+    ? ((lastYear.electric - prevYear.electric) / prevYear.electric * 100).toFixed(1)
+    : null
+
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--ws-charcoal)' }}>
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('registrations.title')}
         </h1>
-        <p className="mt-1 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
+        <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
           {t('registrations.subtitle')}
         </p>
+        {growth && (
+          <p className="mt-2 text-sm font-medium" style={{ color: 'var(--ws-success)' }}>
+            ↑ {growth}% de ventes VE en {lastYear?.year} vs {prevYear?.year} (VP)
+          </p>
+        )}
       </div>
 
       <FilterBar
@@ -62,13 +74,13 @@ export default function Registrations() {
               { value: 'all', label: '2020–2024' },
               { value: '3y', label: '3 ans' },
               { value: '2y', label: '2 ans' },
-              { value: '1y', label: '1 an' },
+              { value: '1y', label: '12 mois' },
             ],
           },
         ]}
       />
 
-      <div className="grid grid-cols-1 gap-6">
+      <div className="flex flex-col gap-6">
         <ChartCard
           title={t('registrations.charts.monthly')}
           description={t('registrations.charts.monthly_desc')}
@@ -90,6 +102,7 @@ export default function Registrations() {
 
           <ChartCard
             title={t('registrations.charts.byType')}
+            description="Cumul 2020–2024"
             source="SDES"
           >
             {monthly && <VehicleTypePieChart data={monthly} />}

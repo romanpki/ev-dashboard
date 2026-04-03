@@ -4,44 +4,39 @@ import type { MonthlyRegistration, ChargingPointHistory, ChargingByPower } from 
 import KPICard from '../components/KPICard'
 import ChartCard from '../components/ChartCard'
 import LoadingSpinner from '../components/LoadingSpinner'
+import { IconCar, IconChart, IconBolt, IconTrend } from '../components/Icons'
 import RegistrationsLineChart from '../charts/RegistrationsLineChart'
 import ChargingByPowerChart from '../charts/ChargingByPowerChart'
 
 export default function Dashboard() {
   const { t } = useTranslation()
-  const { data: regData, loading: regLoading } = useData<MonthlyRegistration[]>('registrations_monthly.json')
-  const { data: chargingData, loading: chargingLoading } = useData<ChargingPointHistory[]>('charging_points_history.json')
-  const { data: powerData, loading: powerLoading } = useData<ChargingByPower[]>('charging_by_power.json')
+  const { data: regData, loading: l1 } = useData<MonthlyRegistration[]>('registrations_monthly.json')
+  const { data: chargingData, loading: l2 } = useData<ChargingPointHistory[]>('charging_points_history.json')
+  const { data: powerData, loading: l3 } = useData<ChargingByPower[]>('charging_by_power.json')
 
-  if (regLoading || chargingLoading || powerLoading) return <LoadingSpinner />
+  if (l1 || l2 || l3) return <LoadingSpinner />
 
-  // KPI calculations
   const totalVE = regData ? regData.reduce((s, d) => s + d.vp + d.vul + d.pl, 0) : 0
-  const lastMonth = regData ? regData[regData.length - 1] : null
-  const prevYearMonth = regData ? regData[regData.length - 13] : null
+  const lastMonth = regData?.[regData.length - 1]
+  const prevYearMonth = regData?.[regData.length - 13]
   const yoyGrowth = lastMonth && prevYearMonth
-    ? ((lastMonth.total - prevYearMonth.total) / prevYearMonth.total) * 100
-    : 0
+    ? ((lastMonth.total - prevYearMonth.total) / prevYearMonth.total) * 100 : 0
 
-  const latestCharging = chargingData ? chargingData[chargingData.length - 1] : null
-  const prevYearCharging = chargingData ? chargingData[chargingData.length - 13] : null
+  const latestCharging = chargingData?.[chargingData.length - 1]
+  const prevYearCharging = chargingData?.[chargingData.length - 13]
   const chargingGrowth = latestCharging && prevYearCharging
-    ? ((latestCharging.public - prevYearCharging.public) / prevYearCharging.public) * 100
-    : 0
-
-  // Market share — approximate 2024 from annual: ~20.9%
-  const marketShare = 20.9
+    ? ((latestCharging.public - prevYearCharging.public) / prevYearCharging.public) * 100 : 0
 
   const last12 = regData ? regData.slice(-12) : []
 
   return (
     <div>
-      {/* Header */}
+      {/* Page header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold" style={{ color: 'var(--ws-charcoal)' }}>
+        <h1 className="text-3xl font-bold tracking-tight" style={{ color: 'var(--ws-charcoal)' }}>
           {t('dashboard.title')}
         </h1>
-        <p className="mt-1 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
+        <p className="mt-2 text-sm" style={{ color: 'var(--ws-gray-600)' }}>
           {t('dashboard.subtitle')}
         </p>
       </div>
@@ -52,49 +47,43 @@ export default function Dashboard() {
           title={t('dashboard.kpi.totalVE')}
           value={totalVE.toLocaleString('fr-FR')}
           description={t('dashboard.kpi.totalVE_desc')}
-          icon="🚗"
+          icon={<IconCar size={20} />}
           highlighted
         />
         <KPICard
           title={t('dashboard.kpi.marketShare')}
-          value={`${marketShare}%`}
+          value="20,9 %"
           description={t('dashboard.kpi.marketShare_desc')}
           trend={3.1}
-          icon="📊"
+          icon={<IconChart size={20} />}
         />
         <KPICard
           title={t('dashboard.kpi.chargingPoints')}
           value={latestCharging ? latestCharging.public.toLocaleString('fr-FR') : '—'}
           description={t('dashboard.kpi.chargingPoints_desc')}
           trend={chargingGrowth}
-          icon="⚡"
+          icon={<IconBolt size={20} />}
         />
         <KPICard
           title={t('dashboard.kpi.yoyGrowth')}
-          value={`+${yoyGrowth.toFixed(1)}%`}
+          value={`+${yoyGrowth.toFixed(1)} %`}
           description={t('dashboard.kpi.yoyGrowth_desc')}
           trend={yoyGrowth}
-          icon="📈"
+          icon={<IconTrend size={20} />}
         />
       </div>
 
-      {/* Charts row */}
+      {/* Charts */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2">
-          <ChartCard
-            title={t('dashboard.recentTrend')}
-            source="SDES"
-          >
+          <ChartCard title={t('dashboard.recentTrend')} source="SDES">
             {last12.length > 0 && (
               <RegistrationsLineChart data={last12} vehicleType="all" />
             )}
           </ChartCard>
         </div>
         <div>
-          <ChartCard
-            title={t('dashboard.chargingByPower')}
-            source="IRVE — data.gouv.fr"
-          >
+          <ChartCard title={t('dashboard.chargingByPower')} source="IRVE — data.gouv.fr">
             {powerData && <ChargingByPowerChart data={powerData} mini />}
           </ChartCard>
         </div>
