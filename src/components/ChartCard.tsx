@@ -6,9 +6,10 @@ interface ChartCardProps {
   source?: string
   children: ReactNode
   className?: string
+  height?: number
 }
 
-export default function ChartCard({ title, description, source, children, className = '' }: ChartCardProps) {
+export default function ChartCard({ title, description, source, children, className = '', height }: ChartCardProps) {
   return (
     <div
       className={`rounded-xl bg-white ${className}`}
@@ -17,7 +18,7 @@ export default function ChartCard({ title, description, source, children, classN
         boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
       }}
     >
-      <div className="px-6 pt-6 pb-2">
+      <div className="px-8 pt-7 pb-2">
         <h3 className="text-base font-semibold" style={{ color: 'var(--ws-charcoal)' }}>
           {title}
         </h3>
@@ -27,10 +28,10 @@ export default function ChartCard({ title, description, source, children, classN
           </p>
         )}
       </div>
-      <div className="px-2 pb-4">{children}</div>
+      <div className="px-2 pb-4" style={height ? { height } : undefined}>{children}</div>
       {source && (
         <div
-          className="px-6 pb-4 text-xs"
+          className="px-8 pb-5 text-xs"
           style={{ color: 'var(--ws-gray-400)' }}
         >
           Source : {source}

@@ -4,6 +4,7 @@ import type { MonthlyRegistration, VehicleTypeStrict } from '../types'
 interface Props {
   data: MonthlyRegistration[]
   vehicleType: VehicleTypeStrict
+  height?: number
 }
 
 const ENERGIES = [
@@ -17,7 +18,7 @@ const ENERGIES = [
 
 type EnergyKey = typeof ENERGIES[number]['key']
 
-export default function EnergyBreakdownPieChart({ data, vehicleType }: Props) {
+export default function EnergyBreakdownPieChart({ data, vehicleType, height = 280 }: Props) {
   const totals = data.reduce(
     (acc, d) => {
       const vt = d[vehicleType]
@@ -73,5 +74,5 @@ export default function EnergyBreakdownPieChart({ data, vehicleType }: Props) {
     ],
   }
 
-  return <ReactECharts option={option} style={{ height: 280 }} />
+  return <ReactECharts option={option} style={{ height }} />
 }

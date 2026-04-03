@@ -3,9 +3,10 @@ import type { ChargingByOperator } from '../types'
 
 interface Props {
   data: ChargingByOperator[]
+  height?: number
 }
 
-export default function ChargingByOperatorChart({ data }: Props) {
+export default function ChargingByOperatorChart({ data, height = 340 }: Props) {
   const sorted = [...data].sort((a, b) => a.count - b.count)
   const max = sorted[sorted.length - 1]?.count ?? 1
 
@@ -68,5 +69,5 @@ export default function ChargingByOperatorChart({ data }: Props) {
     ],
   }
 
-  return <ReactECharts option={option} style={{ height: 340 }} />
+  return <ReactECharts option={option} style={{ height }} />
 }

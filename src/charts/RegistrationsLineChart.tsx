@@ -4,6 +4,7 @@ import type { MonthlyRegistration, VehicleType } from '../types'
 interface Props {
   data: MonthlyRegistration[]
   vehicleType: VehicleType
+  height?: number
 }
 
 const SERIES_CONFIG = [
@@ -29,7 +30,7 @@ function getVehicleData(row: MonthlyRegistration, vehicleType: VehicleType) {
   return result
 }
 
-export default function RegistrationsLineChart({ data, vehicleType }: Props) {
+export default function RegistrationsLineChart({ data, vehicleType, height = 340 }: Props) {
   const labels = data.map((d) => d.month)
 
   const option = {
@@ -113,5 +114,5 @@ export default function RegistrationsLineChart({ data, vehicleType }: Props) {
     })),
   }
 
-  return <ReactECharts option={option} style={{ height: 340 }} />
+  return <ReactECharts option={option} style={{ height }} />
 }

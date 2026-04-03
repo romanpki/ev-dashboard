@@ -4,6 +4,7 @@ import type { AnnualRegistration, VehicleTypeStrict } from '../types'
 interface Props {
   data: AnnualRegistration[]
   vehicleType: VehicleTypeStrict
+  height?: number
 }
 
 const ENERGIES = [
@@ -17,7 +18,7 @@ const ENERGIES = [
 
 type EnergyKey = typeof ENERGIES[number]['key']
 
-export default function MarketShareBarChart({ data, vehicleType }: Props) {
+export default function MarketShareBarChart({ data, vehicleType, height = 320 }: Props) {
   const years = data.map((d) => String(d.year))
 
   const option = {
@@ -102,5 +103,5 @@ export default function MarketShareBarChart({ data, vehicleType }: Props) {
     })),
   }
 
-  return <ReactECharts option={option} style={{ height: 320 }} />
+  return <ReactECharts option={option} style={{ height }} />
 }
