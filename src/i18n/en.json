@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "EV Dashboard",
+    "subtitle": "Transport Electrification in France",
+    "description": "Public dashboard on transport electrification in France"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "registrations": "Registrations",
+    "charging": "Charging",
+    "map": "Map"
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "Key indicators of transport electrification in France",
+    "kpi": {
+      "totalVE": "Electric vehicles registered",
+      "totalVE_desc": "Cumulative since 2020",
+      "marketShare": "EV market share",
+      "marketShare_desc": "New passenger cars",
+      "chargingPoints": "Public charging points",
+      "chargingPoints_desc": "Publicly accessible chargers",
+      "yoyGrowth": "Year-over-year growth",
+      "yoyGrowth_desc": "EV sales vs previous year"
+    },
+    "recentTrend": "Sales trend (last 12 months)",
+    "chargingByPower": "Charging points by power"
+  },
+  "registrations": {
+    "title": "Electric vehicle registrations",
+    "subtitle": "Evolution of 100% electric vehicle sales in France",
+    "filters": {
+      "vehicleType": "Vehicle type",
+      "period": "Period",
+      "all": "All",
+      "vp": "Passenger cars",
+      "vul": "Light commercial vehicles",
+      "pl": "Heavy goods vehicles"
+    },
+    "charts": {
+      "monthly": "Monthly registrations",
+      "monthly_desc": "Number of 100% electric vehicles registered per month",
+      "marketShare": "Annual market shares",
+      "marketShare_desc": "Electric / hybrid / thermal breakdown",
+      "byType": "Breakdown by type"
+    }
+  },
+  "charging": {
+    "title": "Charging infrastructure",
+    "subtitle": "Deployment of charging points in France",
+    "filters": {
+      "access": "Access",
+      "power": "Power",
+      "operator": "Operator",
+      "all": "All",
+      "public": "Public",
+      "private": "Private",
+      "slow": "≤22 kW",
+      "fast": "22–150 kW",
+      "ultrafast": ">150 kW"
+    },
+    "charts": {
+      "history": "Charging point evolution",
+      "history_desc": "Public charging points deployed in France",
+      "byPower": "Breakdown by power",
+      "byPower_desc": "Number of charging points by power range",
+      "topOperators": "Top operators",
+      "topOperators_desc": "Main charging operators"
+    }
+  },
+  "map": {
+    "title": "France Map",
+    "subtitle": "Data by region",
+    "toggle": {
+      "registrations": "EV Registrations",
+      "charging": "Charging points"
+    },
+    "tooltip": {
+      "registrations": "EV registrations",
+      "charging": "charging points"
+    }
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Error loading data",
+    "noData": "No data available",
+    "source": "Source",
+    "lastUpdate": "Last update",
+    "units": {
+      "vehicles": "vehicles",
+      "points": "charging points",
+      "percent": "%",
+      "kw": "kW"
+    },
+    "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  },
+  "footer": {
+    "sources": "Sources",
+    "sourcesList": "SDES, AVERE-France, IRVE (data.gouv.fr), AAAdata, INSEE",
+    "license": "Open data — Open License v2.0",
+    "updatedMonthly": "Monthly updates",
+    "madeBy": "Made by"
+  }
+}

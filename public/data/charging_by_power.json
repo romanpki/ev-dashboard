@@ -1,0 +1,27 @@
+[
+  {
+    "range": "\u22647 kW",
+    "count": 28000,
+    "percent": 18.5
+  },
+  {
+    "range": "7\u201322 kW",
+    "count": 65000,
+    "percent": 43.1
+  },
+  {
+    "range": "22\u201350 kW",
+    "count": 28000,
+    "percent": 18.5
+  },
+  {
+    "range": "50\u2013150 kW",
+    "count": 18000,
+    "percent": 11.9
+  },
+  {
+    "range": ">150 kW",
+    "count": 12000,
+    "percent": 8.0
+  }
+]

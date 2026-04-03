@@ -1,0 +1,52 @@
+[
+  {
+    "operator": "Enedis / Total Energies",
+    "count": 18500,
+    "percent": 12.3
+  },
+  {
+    "operator": "ChargePoint",
+    "count": 14200,
+    "percent": 9.4
+  },
+  {
+    "operator": "Izivia (EDF)",
+    "count": 12800,
+    "percent": 8.5
+  },
+  {
+    "operator": "Freshmile",
+    "count": 10500,
+    "percent": 7.0
+  },
+  {
+    "operator": "Lidl",
+    "count": 9800,
+    "percent": 6.5
+  },
+  {
+    "operator": "Electra",
+    "count": 8200,
+    "percent": 5.4
+  },
+  {
+    "operator": "Fastned",
+    "count": 6500,
+    "percent": 4.3
+  },
+  {
+    "operator": "Ionity",
+    "count": 5200,
+    "percent": 3.4
+  },
+  {
+    "operator": "Shell Recharge",
+    "count": 4800,
+    "percent": 3.2
+  },
+  {
+    "operator": "Autres",
+    "count": 60500,
+    "percent": 40.1
+  }
+]
